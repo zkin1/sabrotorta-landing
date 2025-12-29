@@ -1,58 +1,4 @@
 (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
-"[project]/hooks/useInView.js [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-__turbopack_context__.s([
-    "useInView",
-    ()=>useInView
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var _s = __turbopack_context__.k.signature();
-'use client';
-;
-function useInView(options = {}) {
-    _s();
-    const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "useInView.useEffect": ()=>{
-            const observer = new IntersectionObserver({
-                "useInView.useEffect": ([entry])=>{
-                    // Update visibility when element enters/exits viewport
-                    if (entry.isIntersecting) {
-                        setIsVisible(true);
-                    }
-                }
-            }["useInView.useEffect"], {
-                threshold: 0.1,
-                ...options
-            });
-            const currentRef = ref.current;
-            if (currentRef) {
-                observer.observe(currentRef);
-            }
-            // Cleanup observer on unmount
-            return ({
-                "useInView.useEffect": ()=>{
-                    if (currentRef) {
-                        observer.unobserve(currentRef);
-                    }
-                }
-            })["useInView.useEffect"];
-        }
-    }["useInView.useEffect"], [
-        options
-    ]);
-    return [
-        ref,
-        isVisible
-    ];
-}
-_s(useInView, "7N8EcRPlcY6o9kzg5IgMZgWhyLI=");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
 "[project]/components/Hero.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -65,7 +11,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$js
 // components/Hero.jsx - VERSIÓN PROFESIONAL
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-client] (ecmascript) <export default as Star>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -74,7 +24,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Hero() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: ref,
         className: "jsx-e85e103a1cc3cf4d" + " " + "relative min-h-screen flex items-center justify-center overflow-hidden",
@@ -338,7 +288,7 @@ function Hero() {
 }
 _s(Hero, "qmJA6FmzdWCq2sk9rFXKCqv3b6Y=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = Hero;
@@ -356,7 +306,11 @@ __turbopack_context__.s([
     ()=>About
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check-big.js [app-client] (ecmascript) <export default as CheckCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$history$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__History$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/history.js [app-client] (ecmascript) <export default as History>");
@@ -367,7 +321,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function About() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "nosotros",
         ref: ref,
@@ -659,7 +613,7 @@ function About() {
 }
 _s(About, "qmJA6FmzdWCq2sk9rFXKCqv3b6Y=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = About;
@@ -684,7 +638,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript) <export default as Users>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check-big.js [app-client] (ecmascript) <export default as CheckCircle>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -692,7 +650,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Servicios() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     const servicios = [
         {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$coffee$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Coffee$3e$__["Coffee"],
@@ -965,7 +923,7 @@ function Servicios() {
 }
 _s(Servicios, "qmJA6FmzdWCq2sk9rFXKCqv3b6Y=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = Servicios;
@@ -989,7 +947,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/trending-up.js [app-client] (ecmascript) <export default as TrendingUp>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-client] (ecmascript) <export default as Users>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.js [app-client] (ecmascript) <export default as Award>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -997,7 +959,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Clientes() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     const clientes = [
         {
             nombre: 'Bebé Paris',
@@ -1272,34 +1234,12 @@ function Clientes() {
 }
 _s(Clientes, "qmJA6FmzdWCq2sk9rFXKCqv3b6Y=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = Clientes;
 var _c;
 __turbopack_context__.k.register(_c, "Clientes");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
-}),
-"[project]/lib/config.js [app-client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
-
-// API Configuration
-// Backend API base URL - adjust based on environment
-__turbopack_context__.s([
-    "API_BASE_URL",
-    ()=>API_BASE_URL,
-    "API_ENDPOINTS",
-    ()=>API_ENDPOINTS
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
-const API_BASE_URL = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
-const API_ENDPOINTS = {
-    // Contact form endpoint
-    contact: `${API_BASE_URL}/api/contacto`
-};
-;
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1321,9 +1261,17 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.js [app-client] (ecmascript) <export default as Clock>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$send$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Send$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/send.js [app-client] (ecmascript) <export default as Send>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$instagram$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Instagram$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/instagram.js [app-client] (ecmascript) <export default as Instagram>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$config$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/config.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/lib/config'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
@@ -1334,7 +1282,7 @@ var _s = __turbopack_context__.k.signature();
 ;
 function Contacto() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [message, setMessage] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
     const handleSubmit = async (e)=>{
@@ -1351,7 +1299,7 @@ function Contacto() {
             mensaje: formData.get('mensaje')
         };
         try {
-            const response = await fetch(__TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$config$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["API_ENDPOINTS"].CONTACTO, {
+            const response = await fetch(API_ENDPOINTS.CONTACTO, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -2229,7 +2177,7 @@ function Contacto() {
 }
 _s(Contacto, "Ach5KF/QRsC3VQsa4Iye5R0FnMQ=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = Contacto;
@@ -2247,14 +2195,18 @@ __turbopack_context__.s([
     ()=>Galeria
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/hooks/useInView.js [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '@/hooks/useInView'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 'use client';
 ;
 function Galeria() {
     _s();
-    const [ref, isVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"])();
+    const [ref, isVisible] = useInView();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         ref: ref,
         className: "py-24 bg-white",
@@ -2353,7 +2305,7 @@ function Galeria() {
 }
 _s(Galeria, "qmJA6FmzdWCq2sk9rFXKCqv3b6Y=", false, function() {
     return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$hooks$2f$useInView$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useInView"]
+        useInView
     ];
 });
 _c = Galeria;
@@ -3037,4 +2989,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=_144eb15f._.js.map
+//# sourceMappingURL=components_1ccd5b88._.js.map

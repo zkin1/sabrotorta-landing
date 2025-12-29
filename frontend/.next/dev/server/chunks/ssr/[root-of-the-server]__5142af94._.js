@@ -16,24 +16,26 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 'use client';
 ;
 function useInView(options = {}) {
-    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [isVisible, setIsVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const ref = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const observer = new IntersectionObserver(([entry])=>{
+            // Update visibility when element enters/exits viewport
             if (entry.isIntersecting) {
                 setIsVisible(true);
-                observer.unobserve(entry.target);
             }
         }, {
             threshold: 0.1,
             ...options
         });
-        if (ref.current) {
-            observer.observe(ref.current);
+        const currentRef = ref.current;
+        if (currentRef) {
+            observer.observe(currentRef);
         }
+        // Cleanup observer on unmount
         return ()=>{
-            if (ref.current) {
-                observer.unobserve(ref.current);
+            if (currentRef) {
+                observer.unobserve(currentRef);
             }
         };
     }, [
@@ -1225,20 +1227,20 @@ function Clientes() {
 "[project]/lib/config.js [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
-/**
- * Configuración centralizada para el landing
- */ // URL base de la API - usa variable de entorno o valor por defecto
+// API Configuration
+// Backend API base URL - adjust based on environment
 __turbopack_context__.s([
     "API_BASE_URL",
     ()=>API_BASE_URL,
     "API_ENDPOINTS",
     ()=>API_ENDPOINTS
 ]);
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
 const API_ENDPOINTS = {
-    CONTACTO: `${API_BASE_URL}/api/contacto`,
-    HEALTH: `${API_BASE_URL}/api/health`
+    // Contact form endpoint
+    contact: `${API_BASE_URL}/api/contacto`
 };
+;
 }),
 "[project]/components/Contacto.jsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
