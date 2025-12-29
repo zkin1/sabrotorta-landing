@@ -1,0 +1,828 @@
+[00:53:06.934] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.934] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:06.951] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.280] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:07.930] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\shared\lib\turbopack\manifest-loader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.936] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\turbopack-utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.942] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.944] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.945] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\dev-bundler-service.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.949] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.958] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.961] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.963] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:07.965] Server  ERROR    ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\.next\dev\server\app\_not-found\page\build-manifest.json'
+[00:53:08.132] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.132] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:1:38
+Module not found: Can't resolve '@/components/About'
+> 1 | ﻿import Hero from '@/components/Hero'
+    |                                      ^
+> 2 | import About from '@/components/About'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:3:45
+Module not found: Can't resolve '@/components/Clientes'
+  1 | ﻿import Hero from '@/components/Hero'
+  2 | import About from '@/components/About'
+> 3 | import Servicios from '@/components/Servicios'
+    |                                             ^^
+> 4 | import Clientes from '@/components/Clientes'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:4:43
+Module not found: Can't resolve '@/components/Contacto'
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+> 4 | import Clientes from '@/components/Clientes'
+    |                                           ^^
+> 5 | import Contacto from '@/components/Contacto'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Galeria from '@/components/Galeria'
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:6:41
+Module not found: Can't resolve '@/components/Footer'
+   4 | import Clientes from '@/components/Clientes'
+   5 | import Contacto from '@/components/Contacto'
+>  6 | import Galeria from '@/components/Galeria'
+     |                                         ^^
+>  7 | import Footer from '@/components/Footer'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import WhatsAppButton from '@/components/WhatsAppButton'
+   9 |
+  10 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:5:43
+Module not found: Can't resolve '@/components/Galeria'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+> 5 | import Contacto from '@/components/Contacto'
+    |                                           ^^
+> 6 | import Galeria from '@/components/Galeria'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import Footer from '@/components/Footer'
+  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+  9 |
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:1:1
+Module not found: Can't resolve '@/components/Hero'
+> 1 | ﻿import Hero from '@/components/Hero'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import About from '@/components/About'
+  3 | import Servicios from '@/components/Servicios'
+  4 | import Clientes from '@/components/Clientes'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:2:37
+Module not found: Can't resolve '@/components/Servicios'
+  1 | ﻿import Hero from '@/components/Hero'
+> 2 | import About from '@/components/About'
+    |                                     ^^
+> 3 | import Servicios from '@/components/Servicios'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import Clientes from '@/components/Clientes'
+  5 | import Contacto from '@/components/Contacto'
+  6 | import Galeria from '@/components/Galeria'
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.144] Browser ERROR   ./app/page.js:7:39
+Module not found: Can't resolve '@/components/WhatsAppButton'
+   5 | import Contacto from '@/components/Contacto'
+   6 | import Galeria from '@/components/Galeria'
+>  7 | import Footer from '@/components/Footer'
+     |                                       ^^
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | export default function Home() {
+  11 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:53:08.369] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.373] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.377] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:08.383] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.386] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.393] Server  ERROR    ⨯ "unhandledRejection:" Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:08.398] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.399] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:08.399] Server  ERROR    ⨯ "unhandledRejection: " Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.052] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.057] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.060] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.063] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.066] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.068] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.098] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.103] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.109] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.113] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.117] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.119] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.169] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.170] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.172] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.174] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.176] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.177] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:09.535] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\fs\write-atomic.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.536] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\shared\lib\turbopack\manifest-loader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.537] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\turbopack-utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.538] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.539] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.539] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\dev-bundler-service.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.540] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.541] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.543] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.544] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.545] Server  ERROR   Error: ENOENT: no such file or directory, open 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\.next\dev\static\development\_buildManifest.js.tmp.cesxtfhcoa6'
+[00:53:09.547] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\lib\recursive-readdir.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.548] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\node_modules\next\dist\server\route-matcher-providers\dev\helpers\file-reader\batched-file-reader.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:53:09.549] Server  ERROR   Error: ENOENT: no such file or directory, scandir 'C:\Users\zkn\Downloads\sabr\sabrotortas-landing\app'
+[00:53:14.415] Server  LOG      ✓ Compiled in 71ms

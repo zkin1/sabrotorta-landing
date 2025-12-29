@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/zkn/Downloads/sabr/sabrotortas-landing/app/page.js"],"sourcesContent":["import Hero from '@/components/Hero'\nimport About from '@/components/About'\nimport Servicios from '@/components/Servicios'\nimport Clientes from '@/components/Clientes'\nimport Contacto from '@/components/Contacto'\nimport Galeria from '@/components/Galeria'\nimport Footer from '@/components/Footer'\nimport WhatsAppButton from '@/components/WhatsAppButton'\n\nexport default function Home() {\n  return (\n    <>\n      <main>\n        <Hero />\n        <About />\n        <Servicios />\n        <Contacto />\n        <Clientes />\n        <Galeria />\n        <Footer />\n      </main>\n      <WhatsAppButton />\n    </>\n  )\n}\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AASe,SAAS;IACtB,qBACE;;0BACE,8OAAC;;kCACC,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;kCACD,8OAAC;;;;;;;;;;;0BAEH,8OAAC;;;;;;;AAGP"}}]
+}
