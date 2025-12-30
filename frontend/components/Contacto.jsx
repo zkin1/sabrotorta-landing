@@ -1,7 +1,7 @@
 'use client'
 
 // components/Contacto.jsx - VERSIÓN PROFESIONAL
-import { Mail, Phone, MapPin, Facebook, MessageCircle, Clock, Send, Instagram } from 'lucide-react'
+import { Mail, Phone, MapPin, MessageCircle, Clock, Send, Instagram } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
 import { useState } from 'react'
 import { API_ENDPOINTS } from '@/lib/config'

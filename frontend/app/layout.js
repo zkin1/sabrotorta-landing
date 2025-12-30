@@ -1,4 +1,16 @@
-﻿import './animations.css'
+﻿import { Inter, Dancing_Script } from 'next/font/google'
+import './globals.css'
+import './animations.css'
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+})
+
+const dancingScript = Dancing_Script({
+  subsets: ['latin'],
+  variable: '--font-dancing',
+})
 
 export const metadata = {
   title: 'Sabrotortas - Tortas Decoradas y Catering',
@@ -7,11 +19,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" style={{ scrollBehavior: 'smooth' }}>
-      <head>
-        <script src="https://cdn.tailwindcss.com"></script>
-      </head>
-      <body>{children}</body>
+    <html lang="es" style={{ scrollBehavior: 'smooth' }} className={`${inter.variable} ${dancingScript.variable}`}>
+      <body className="font-sans antialiased" suppressHydrationWarning={true}>{children}</body>
     </html>
   )
 }
