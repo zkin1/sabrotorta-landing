@@ -1,19 +1,19 @@
 'use client'
 
 // components/Clientes.jsx - VERSIÓN PROFESIONAL
-import { Building2, Star, TrendingUp, Users, Award, Shield } from 'lucide-react'
+import { Building2, Star, TrendingUp, Users, Award, ShoppingBag, Landmark, GraduationCap, Pickaxe, Car, LineChart } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
 
 export default function Clientes() {
   const [ref, isVisible] = useInView()
   const clientes = [
-    { nombre: 'Bebé Paris', descripcion: 'Catering para eventos en Tiendas Paris Mall Plaza Norte', logo: '🏬' },
-    { nombre: 'La Polar', descripcion: 'Catering para eventos de Novios en Mall Florida Center', logo: '🏢' },
-    { nombre: 'Municipalidad de Vitacura', descripcion: 'Catering inauguración Punto Ecológico Parque Bicentenario', logo: '🏛️' },
-    { nombre: 'UDLA', descripcion: 'Servicios de café y desayunos para cursos', logo: '🎓' },
-    { nombre: 'Minera Fluor', descripcion: 'Servicios de café para celebraciones internas', logo: '⛏️' },
-    { nombre: 'SALFA', descripcion: 'Cafetería para curso de capacitación 2015', logo: '🚗' },
-    { nombre: 'Action Line', descripcion: 'Tortas y cafés para celebraciones y aniversarios', logo: '📊' }
+    { nombre: 'Bebé Paris', descripcion: 'Catering para eventos en Tiendas Paris Mall Plaza Norte', logo: ShoppingBag },
+    { nombre: 'La Polar', descripcion: 'Catering para eventos de Novios en Mall Florida Center', logo: ShoppingBag },
+    { nombre: 'Municipalidad de Vitacura', descripcion: 'Catering inauguración Punto Ecológico Parque Bicentenario', logo: Landmark },
+    { nombre: 'UDLA', descripcion: 'Servicios de café y desayunos para cursos', logo: GraduationCap },
+    { nombre: 'Minera Fluor', descripcion: 'Servicios de café para celebraciones internas', logo: Pickaxe },
+    { nombre: 'SALFA', descripcion: 'Cafetería para curso de capacitación 2015', logo: Car },
+    { nombre: 'Action Line', descripcion: 'Tortas y cafés para celebraciones y aniversarios', logo: LineChart }
   ]
 
   const stats = [
@@ -92,7 +92,7 @@ export default function Clientes() {
               >
                 <div className="flex items-start gap-3">
                   <div className="w-12 h-12 bg-gradient-to-br from-pink-100 to-fuchsia-100 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 shadow-sm">
-                    {cliente.logo}
+                    <cliente.logo className="w-6 h-6 text-pink-500" />
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-800 mb-1">
