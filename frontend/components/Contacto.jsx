@@ -22,12 +22,12 @@ export default function Contacto() {
       email: formData.get('email'),
       telefono: formData.get('telefono'),
       servicio: formData.get('servicio'),
-      fecha_evento: formData.get('fecha') || null,
+      fecha: formData.get('fecha') || null,
       mensaje: formData.get('mensaje')
     }
 
     try {
-      const response = await fetch(API_ENDPOINTS.CONTACTO, {
+      const response = await fetch(API_ENDPOINTS.contact, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

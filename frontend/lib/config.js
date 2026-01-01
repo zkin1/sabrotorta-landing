@@ -5,7 +5,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
 // API Endpoints
 export const API_ENDPOINTS = {
     // Contact form endpoint
-    contact: `${API_BASE_URL}/api/contacto`,
+    contact: '/api/sendEmail',
 
     // Add other endpoints as needed
     // gallery: `${API_BASE_URL}/api/galeria`,
