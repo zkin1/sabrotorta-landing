@@ -266,7 +266,7 @@ export default function Contacto() {
                 <p className="font-bold text-lg mb-6 text-white/90">Síguenos en Redes Sociales</p>
                 <div className="flex gap-4">
                   <a
-                    href="https://www.instagram.com/sabrotortas.cl/"
+                    href="https://instagram.com/_u/sabrotortas.cl/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/social w-14 h-14 bg-white/20 backdrop-blur-sm hover:bg-white rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-12"
