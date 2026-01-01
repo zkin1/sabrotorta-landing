@@ -93,7 +93,7 @@ export default function Footer() {
               <div className="flex gap-4">
 
                 <a
-                  href="https://wa.me/56977794373"
+                  href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group w-12 h-12 bg-gray-800 hover:bg-green-600 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-12 shadow-lg"

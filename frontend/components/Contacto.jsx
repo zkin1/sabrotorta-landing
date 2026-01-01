@@ -79,7 +79,7 @@ export default function Contacto() {
             {/* WhatsApp Direct Button (Requested at Top) */}
             <div className="mb-8">
               <a
-                href="https://wa.me/56977794373"
+                href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 mb-6"
@@ -274,7 +274,7 @@ export default function Contacto() {
                     <Instagram className="w-7 h-7 text-white group-hover/social:text-pink-500 transition-colors" />
                   </a>
                   <a
-                    href="https://wa.me/56977794373"
+                    href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/social w-14 h-14 bg-white/20 backdrop-blur-sm hover:bg-white rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-12"

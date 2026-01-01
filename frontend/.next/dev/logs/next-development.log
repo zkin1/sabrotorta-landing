@@ -1,21 +1,4 @@
-[00:00:02.031] Server  LOG      ✓ Ready in 1410ms
-[00:00:25.029] Server  LOG      ○ Compiling / ...
-[00:00:26.422] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:14:41.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:22:19.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:23:08.853] Server  LOG      ✓ Compiled in 196ms
-[00:23:22.691] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:01.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:27:34.835] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:29:09.448] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:30:04.391] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:19.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:29.214] Server  LOG      ✓ Compiled in 248ms
-[00:32:41.722] Server  LOG      ✓ Compiled in 134ms
-[00:33:05.605] Server  LOG      ✓ Compiled in 200ms
-[00:33:29.577] Server  LOG      ✓ Compiled in 145ms
-[00:33:43.389] Server  LOG      ✓ Compiled in 129ms
-[00:33:57.567] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:34:10.490] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:39:36.994] Server  WARN     ⚠ Cross origin request detected from 192.168.100.3 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.740] Server  LOG      ✓ Ready in 1047ms
+[00:00:10.203] Server  WARN     ⚠ Cross origin request detected from 192.168.100.3 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:10.255] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
