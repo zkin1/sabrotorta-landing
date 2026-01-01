@@ -12,8 +12,8 @@ export default function Servicios() {
       title: 'Catering Corporativo',
       description: 'Servicios de catering, coffees y brunchs para empresas e instituciones. Más de 10 años de experiencia atendiendo a empresas destacadas con estándares de excelencia.',
       items: ['Coffees y desayunos ejecutivos', 'Eventos corporativos', 'Celebraciones internas', 'Cafetería para capacitaciones'],
-      color: 'from-orange-400 to-red-500',
-      bgColor: 'from-orange-50 to-red-50'
+      color: 'from-pink-400 to-rose-500',
+      bgColor: 'from-pink-50 to-rose-50'
     },
     {
       icon: Cake,
@@ -38,7 +38,7 @@ export default function Servicios() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
-          <div className="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-pink-100 to-orange-100 rounded-full mb-4 md:mb-6 shadow-md">
+          <div className="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-pink-100 to-fuchsia-100 rounded-full mb-4 md:mb-6 shadow-md">
             <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-pink-600" />
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6">
@@ -50,7 +50,7 @@ export default function Servicios() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-20">
           {servicios.map((servicio, index) => (
             <div
               key={index}
@@ -93,7 +93,7 @@ export default function Servicios() {
 
 
         {/* CTA Section */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-orange-500 to-pink-500 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
+        <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-fuchsia-500 to-pink-600 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
           <div className="absolute inset-0 bg-black/10"></div>
           <div className="relative z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">

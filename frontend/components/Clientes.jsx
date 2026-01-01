@@ -21,7 +21,7 @@ export default function Clientes() {
       value: '18+',
       label: 'Años de Experiencia',
       icon: TrendingUp,
-      color: 'from-pink-500 to-orange-500'
+      color: 'from-pink-500 to-fuchsia-500'
     },
     {
       value: '500+',
@@ -39,7 +39,7 @@ export default function Clientes() {
       value: '50+',
       label: 'Empresas Atendidas',
       icon: Award,
-      color: 'from-orange-500 to-red-500'
+      color: 'from-pink-500 to-rose-500'
     }
   ]
 
@@ -91,7 +91,7 @@ export default function Clientes() {
                 style={{ animationDelay: `${0.05 * (index + 1)}s` }}
               >
                 <div className="flex items-start gap-3">
-                  <div className="w-12 h-12 bg-gradient-to-br from-pink-100 to-orange-100 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 shadow-sm">
+                  <div className="w-12 h-12 bg-gradient-to-br from-pink-100 to-fuchsia-100 rounded-lg flex items-center justify-center text-2xl flex-shrink-0 shadow-sm">
                     {cliente.logo}
                   </div>
                   <div>

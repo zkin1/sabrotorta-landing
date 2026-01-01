@@ -58,7 +58,7 @@ export default function Contacto() {
   }
 
   return (
-    <section id="contacto" ref={ref} className="py-24 bg-gradient-to-b from-white to-pink-50 relative overflow-hidden">
+    <section id="contacto" ref={ref} className="py-24 bg-gradient-to-b from-pink-50 via-fuchsia-50 to-pink-100 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''} px-4`}>
@@ -205,7 +205,7 @@ export default function Contacto() {
               <button
                 type="submit"
                 disabled={loading}
-                className="group w-full bg-gradient-to-r from-pink-500 via-orange-500 to-pink-500 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="group w-full bg-gradient-to-r from-pink-500 via-pink-600 to-fuchsia-500 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? 'Enviando...' : 'Enviar Solicitud'}
                 {!loading && <Send className="w-6 h-6 group-hover:translate-x-2 transition-transform" />}
@@ -220,7 +220,7 @@ export default function Contacto() {
           {/* Contact Info (Order 2 on mobile) */}
           <div className={`space-y-6 order-2 lg:order-1 will-animate ${isVisible ? 'animate-in-left' : ''}`}>
             {/* Main Contact Card */}
-            <div className="bg-gradient-to-br from-pink-500 to-orange-500 p-8 rounded-2xl shadow-xl text-white">
+            <div className="bg-gradient-to-br from-pink-500 to-fuchsia-600 p-8 rounded-2xl shadow-xl text-white">
               <h3 className="text-2xl font-bold mb-6">Información</h3>
 
               <div className="space-y-6">

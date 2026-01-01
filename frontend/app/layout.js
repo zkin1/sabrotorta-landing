@@ -15,6 +15,14 @@ const dancingScript = Dancing_Script({
 export const metadata = {
   title: 'Sabrotortas - Tortas Decoradas y Catering',
   description: 'Servicios de catering, tortas decoradas y eventos desde 2006.',
+  icons: {
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/logo.jpg', type: 'image/jpeg' }
+    ],
+    shortcut: '/favicon.ico',
+    apple: '/logo.jpg',
+  },
 }
 
 export default function RootLayout({ children }) {

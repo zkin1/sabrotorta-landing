@@ -15,8 +15,8 @@ export default function Home() {
         <About />
         <Servicios />
         <Contacto />
-        <Clientes />
         <Galeria />
+        <Clientes />
         <Footer />
       </main>
       <WhatsAppButton />
