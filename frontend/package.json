@@ -12,12 +12,12 @@
     "lucide-react": "^0.560.0",
     "next": "^16",
     "nodemailer": "^7.0.11",
-    "react": "^19",
-    "react-dom": "^19"
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "25.0.1",
-    "@types/react": "19.2.7",
+    "@types/react": "^18",
     "autoprefixer": "^10.4.23",
     "eslint": "^9",
     "eslint-config-next": "^16",
