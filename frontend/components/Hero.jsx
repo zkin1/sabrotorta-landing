@@ -18,8 +18,8 @@ export default function Hero() {
 
           {/* Main Title - Static Visible */}
           <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
-            <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-6 font-script">
-              <span className="bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent pb-4 block drop-shadow-sm">
+            <h1 className="text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-bold mb-6 font-script">
+              <span className="bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent pb-4 block leading-tight">
                 Sabrotortas
               </span>
             </h1>
@@ -27,12 +27,12 @@ export default function Hero() {
             {/* Rating Stars */}
             <div className="flex items-center justify-center gap-2 mb-4">
               {[...Array(5)].map((_, i) => (
-                <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 fill-yellow-400 text-yellow-400 drop-shadow-sm" />
+                <Star key={i} className="w-4 h-4 sm:w-6 sm:h-6 fill-yellow-400 text-yellow-400 drop-shadow-sm" />
               ))}
               <span className="ml-2 text-gray-800 font-bold text-sm sm:text-base">5.0 / 5.0</span>
             </div>
 
-            <p className="text-xl sm:text-3xl md:text-4xl text-gray-900 mb-4 font-bold px-2 font-sans tracking-tight">
+            <p className="text-2xl sm:text-3xl md:text-4xl text-gray-900 mb-4 font-bold px-2 font-sans tracking-tight">
               Endulzando tus momentos especiales desde 2006
             </p>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed px-4 font-sans font-medium">
@@ -44,14 +44,14 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-stretch sm:items-center px-4 animate-fade-in-up">
             <a
               href="#contacto"
-              className="group bg-brand-pink text-white px-8 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-brand-pink to-pink-500 hover:from-pink-500 hover:to-brand-pink"
+              className="group bg-brand-pink text-white px-6 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-brand-pink to-pink-500 hover:from-pink-500 hover:to-brand-pink"
             >
               Solicitar Cotización Gratis
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 group-hover:translate-x-2 transition-transform" />
             </a>
             <a
               href="#servicios"
-              className="group bg-white/80 text-gray-800 px-8 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl border-2 sm:border-3 border-gray-200/50 hover:border-brand-pink hover:text-brand-pink hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 backdrop-blur-md"
+              className="group bg-white/80 text-gray-800 px-6 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl border-2 sm:border-3 border-gray-200/50 hover:border-brand-pink hover:text-brand-pink hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 backdrop-blur-md"
             >
               Ver Nuestros Servicios
               <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 group-hover:translate-x-2 transition-transform" />

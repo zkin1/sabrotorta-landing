@@ -41,7 +41,7 @@ export default function Servicios() {
           <div className="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gradient-to-br from-pink-100 to-fuchsia-100 rounded-full mb-4 md:mb-6 shadow-md">
             <Sparkles className="w-6 h-6 md:w-8 md:h-8 text-pink-600" />
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6">
             Nuestros Servicios
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-4">

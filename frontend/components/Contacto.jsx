@@ -63,7 +63,7 @@ export default function Contacto() {
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''} px-4`}>
           <span className="text-pink-600 font-bold text-base md:text-lg uppercase tracking-wider block mb-2">Hablemos</span>
-          <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight">
             ¡Hagamos Realidad tu Evento!
           </h2>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-2">

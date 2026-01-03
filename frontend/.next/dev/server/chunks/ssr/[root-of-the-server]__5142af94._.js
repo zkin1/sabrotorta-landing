@@ -84,9 +84,9 @@ function Hero() {
                                 className: "jsx-e85e103a1cc3cf4d" + " " + "mb-8 animate-fade-in-up",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        className: "jsx-e85e103a1cc3cf4d" + " " + "text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-6 font-script",
+                                        className: "jsx-e85e103a1cc3cf4d" + " " + "text-7xl sm:text-7xl md:text-8xl lg:text-9xl font-bold mb-6 font-script",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-e85e103a1cc3cf4d" + " " + "bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent pb-4 block drop-shadow-sm",
+                                            className: "jsx-e85e103a1cc3cf4d" + " " + "bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent pb-4 block leading-tight",
                                             children: "Sabrotortas"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Hero.jsx",
@@ -104,7 +104,7 @@ function Hero() {
                                             [
                                                 ...Array(5)
                                             ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                                    className: "w-5 h-5 sm:w-6 sm:h-6 fill-yellow-400 text-yellow-400 drop-shadow-sm"
+                                                    className: "w-4 h-4 sm:w-6 sm:h-6 fill-yellow-400 text-yellow-400 drop-shadow-sm"
                                                 }, i, false, {
                                                     fileName: "[project]/components/Hero.jsx",
                                                     lineNumber: 30,
@@ -125,7 +125,7 @@ function Hero() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-e85e103a1cc3cf4d" + " " + "text-xl sm:text-3xl md:text-4xl text-gray-900 mb-4 font-bold px-2 font-sans tracking-tight",
+                                        className: "jsx-e85e103a1cc3cf4d" + " " + "text-2xl sm:text-3xl md:text-4xl text-gray-900 mb-4 font-bold px-2 font-sans tracking-tight",
                                         children: "Endulzando tus momentos especiales desde 2006"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Hero.jsx",
@@ -151,7 +151,7 @@ function Hero() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#contacto",
-                                        className: "jsx-e85e103a1cc3cf4d" + " " + "group bg-brand-pink text-white px-8 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-brand-pink to-pink-500 hover:from-pink-500 hover:to-brand-pink",
+                                        className: "jsx-e85e103a1cc3cf4d" + " " + "group bg-brand-pink text-white px-6 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 bg-gradient-to-r from-brand-pink to-pink-500 hover:from-pink-500 hover:to-brand-pink",
                                         children: [
                                             "Solicitar Cotización Gratis",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -169,7 +169,7 @@ function Hero() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: "#servicios",
-                                        className: "jsx-e85e103a1cc3cf4d" + " " + "group bg-white/80 text-gray-800 px-8 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl border-2 sm:border-3 border-gray-200/50 hover:border-brand-pink hover:text-brand-pink hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 backdrop-blur-md",
+                                        className: "jsx-e85e103a1cc3cf4d" + " " + "group bg-white/80 text-gray-800 px-6 py-4 sm:px-10 sm:py-5 rounded-full font-bold text-lg sm:text-xl border-2 sm:border-3 border-gray-200/50 hover:border-brand-pink hover:text-brand-pink hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2 sm:gap-3 backdrop-blur-md",
                                         children: [
                                             "Ver Nuestros Servicios",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -350,7 +350,7 @@ function About() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight font-script",
+                                className: "text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight font-script",
                                 children: [
                                     "Una historia de ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -556,10 +556,10 @@ function About() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-xs animate-float",
+                                className: "absolute -bottom-4 -left-2 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-6 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-[200px] sm:max-w-xs animate-float",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-4xl font-bold text-brand-pink mb-1 font-script",
+                                        className: "text-2xl sm:text-4xl font-bold text-brand-pink mb-1 font-script",
                                         children: "10+ Años"
                                     }, void 0, false, {
                                         fileName: "[project]/components/About.jsx",
@@ -567,7 +567,7 @@ function About() {
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-gray-600 font-medium font-sans",
+                                        className: "text-xs sm:text-base text-gray-600 font-medium font-sans",
                                         children: "Entregando servicios de catering y repostería a destacadas empresas"
                                     }, void 0, false, {
                                         fileName: "[project]/components/About.jsx",
@@ -692,7 +692,7 @@ function Servicios() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6",
+                            className: "text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6",
                             children: "Nuestros Servicios"
                         }, void 0, false, {
                             fileName: "[project]/components/Servicios.jsx",
@@ -1002,7 +1002,7 @@ function Clientes() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                            className: "text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6",
+                            className: "text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6",
                             children: "Confían en Nosotros"
                         }, void 0, false, {
                             fileName: "[project]/components/Clientes.jsx",
@@ -1306,7 +1306,7 @@ function Contacto() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "jsx-d075296b0ad2102d" + " " + "text-3xl sm:text-4xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight",
+                                className: "jsx-d075296b0ad2102d" + " " + "text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight",
                                 children: "¡Hagamos Realidad tu Evento!"
                             }, void 0, false, {
                                 fileName: "[project]/components/Contacto.jsx",
@@ -2209,7 +2209,7 @@ function Galeria() {
                         className: `text-center mb-12 will-animate ${isVisible ? 'animate-in-up' : ''}`,
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "text-4xl font-bold text-gray-800 mb-4 font-script",
+                                className: "text-5xl md:text-6xl font-bold text-gray-800 mb-4 font-script",
                                 children: "Nuestras Creaciones"
                             }, void 0, false, {
                                 fileName: "[project]/components/Galeria.jsx",
@@ -2380,7 +2380,7 @@ function Footer() {
                                         className: "mb-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-4xl font-bold mb-4 font-script",
+                                                className: "text-5xl font-bold mb-4 font-script",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "text-transparent bg-clip-text bg-gradient-to-r from-brand-lightPink to-brand-pink",
                                                     children: "Sabrotortas"

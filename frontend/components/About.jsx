@@ -18,7 +18,7 @@ export default function About() {
                             <span>Desde 2006</span>
                         </div>
 
-                        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6 leading-tight font-script">
+                        <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight font-script">
                             Una historia de <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-pink to-brand-lightPink">pasión y compromiso</span>
                         </h2>
 
@@ -86,9 +86,9 @@ export default function About() {
                         <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-gradient-to-br from-brand-blue/30 to-purple-200 rounded-full opacity-50 blur-3xl -z-10"></div>
 
                         {/* Experience Card */}
-                        <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-xs animate-float">
-                            <p className="text-4xl font-bold text-brand-pink mb-1 font-script">10+ Años</p>
-                            <p className="text-gray-600 font-medium font-sans">Entregando servicios de catering y repostería a destacadas empresas</p>
+                        <div className="absolute -bottom-4 -left-2 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-6 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-[200px] sm:max-w-xs animate-float">
+                            <p className="text-2xl sm:text-4xl font-bold text-brand-pink mb-1 font-script">10+ Años</p>
+                            <p className="text-xs sm:text-base text-gray-600 font-medium font-sans">Entregando servicios de catering y repostería a destacadas empresas</p>
                         </div>
                     </div>
 
