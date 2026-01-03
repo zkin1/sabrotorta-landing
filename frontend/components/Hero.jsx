@@ -1,7 +1,7 @@
 ﻿'use client'
 
 // components/Hero.jsx - VERSIÓN PROFESIONAL
-import { Cake, Award, Heart, ArrowRight, Star } from 'lucide-react'
+import { ArrowRight, Star } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
 
 export default function Hero() {

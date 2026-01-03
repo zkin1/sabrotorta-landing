@@ -1,7 +1,7 @@
 'use client'
 
 // components/Footer.jsx - VERSIÓN PROFESIONAL
-import { Heart, Mail, Phone, MapPin, Instagram, ArrowUp } from 'lucide-react'
+import { Heart, Mail, Phone, MapPin, ArrowUp } from 'lucide-react'
 
 export default function Footer() {
   const scrollToTop = () => {

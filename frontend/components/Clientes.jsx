@@ -81,7 +81,7 @@ export default function Clientes() {
         {/* Clients Grid */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-gray-800 text-center mb-12">
-            Empresas que nos prefieren
+            Empresas que han confiado en nosotros
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {clientes.map((cliente, index) => (
@@ -102,14 +102,6 @@ export default function Clientes() {
                       {cliente.descripcion}
                     </p>
                   </div>
-                </div>
-
-                {/* Rating */}
-                <div className="flex items-center gap-1 mt-4 pt-4 border-t border-gray-100">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                  <span className="ml-2 text-gray-600 text-xs">Excelente</span>
                 </div>
               </div>
             ))}

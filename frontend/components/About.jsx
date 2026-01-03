@@ -19,6 +19,27 @@ export default function About() {
         }
     }, [isVisible, hasShownCert])
 
+    // Prevent scrolling when popup is open
+    useEffect(() => {
+        if (showCert) {
+            document.body.style.overflow = 'hidden'
+        } else {
+            document.body.style.overflow = 'auto'
+        }
+        return () => {
+            document.body.style.overflow = 'auto'
+        }
+    }, [showCert])
+
+    // Handle popup close with scroll reset
+    const handleClose = () => {
+        setShowCert(false)
+        // Ensure scroll keeps us at the section
+        setTimeout(() => {
+            document.getElementById('nosotros')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+        }, 100)
+    }
+
     return (
         <section id="nosotros" ref={ref} className="py-24 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,13 +135,13 @@ export default function About() {
                     {/* Backdrop */}
                     <div
                         className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-                        onClick={() => setShowCert(false)}
+                        onClick={handleClose}
                     ></div>
 
                     {/* Modal Content */}
                     <div className="relative bg-white rounded-3xl shadow-2xl p-4 max-w-lg md:max-w-3xl w-full transform transition-all animate-in zoom-in-50 duration-300 border-4 border-brand-pink/20">
                         <button
-                            onClick={() => setShowCert(false)}
+                            onClick={handleClose}
                             className="absolute -top-4 -right-4 bg-brand-pink text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:bg-pink-600 transition-colors z-20"
                         >
                             <X className="w-5 h-5" />

@@ -2,3 +2,45 @@
 [00:00:01.313] Server  WARN     ⚠ Cross origin request detected from 192.168.100.3 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
 [00:00:19.806] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:00.292] Server  LOG      ✓ Compiled in 204ms
+[00:11:29.669] Server  LOG      ✓ Compiled in 164ms
+[00:12:23.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:28.222] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:44.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:43.082] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:16.532] Server  LOG      ✓ Compiled in 146ms
+[00:22:10.779] Server  LOG      ✓ Compiled in 110ms
+[00:22:11.495] Browser ERROR   ./components/Clientes.jsx:108:15
+Parsing ecmascript source code failed
+  106 |
+  107 |
+> 108 |             ))}
+      |               ^
+  109 |           </div>
+  110 |         </div>
+  111 |       </div>
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Clientes.jsx
+    ./app/page.js
+[00:22:11.495] Browser ERROR   ./components/Clientes.jsx:110:10
+Parsing ecmascript source code failed
+  108 |             ))}
+  109 |           </div>
+> 110 |         </div>
+      |          ^^^^^
+  111 |       </div>
+  112 |     </section>
+  113 |   )
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/Clientes.jsx
+    ./app/page.js
+[00:22:23.159] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:46.041] Server  LOG      ✓ Compiled in 112ms
