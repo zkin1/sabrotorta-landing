@@ -34,7 +34,7 @@ export default function Servicios() {
   ]
 
   return (
-    <section id="servicios" ref={ref} className="py-24 bg-gradient-to-b from-white to-gray-50">
+    <section id="servicios" ref={ref} className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
@@ -93,8 +93,7 @@ export default function Servicios() {
 
 
         {/* CTA Section */}
-        <div className="relative overflow-hidden bg-gradient-to-r from-pink-500 via-fuchsia-500 to-pink-600 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
-          <div className="absolute inset-0 bg-black/10"></div>
+        <div className="relative overflow-hidden bg-gradient-to-br from-pink-400 to-pink-500 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
           <div className="relative z-10">
             <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
               ¿Tienes algo especial en mente?

@@ -8,13 +8,12 @@ export default function Hero() {
   const [ref, isVisible] = useInView()
 
   return (
-    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
-      {/* Background - Clean White as requested */}
-      <div className="absolute inset-0 z-0 bg-white"></div>
+    <section ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background - Transparent to show global theme */}
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
-        {/* Added subtle backdrop for text readability - DESTKOP ONLY CARD, MOBILE FLAT */}
-        <div className="md:bg-white md:rounded-3xl md:p-12 w-full max-w-5xl mx-auto">
+        {/* Content Container - Elegant & Modern without heavy borders */}
+        <div className="backdrop-blur-[2px] w-full max-w-5xl mx-auto">
           {/* Logo Removed as requested */}
 
           {/* Main Title - Static Visible */}

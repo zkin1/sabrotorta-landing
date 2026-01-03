@@ -58,7 +58,7 @@ export default function Contacto() {
   }
 
   return (
-    <section id="contacto" ref={ref} className="py-24 bg-gradient-to-b from-pink-50 via-fuchsia-50 to-pink-100 relative overflow-hidden">
+    <section id="contacto" ref={ref} className="py-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''} px-4`}>
@@ -220,7 +220,7 @@ export default function Contacto() {
           {/* Contact Info (Order 2 on mobile) */}
           <div className={`space-y-6 order-2 lg:order-1 will-animate ${isVisible ? 'animate-in-left' : ''}`}>
             {/* Main Contact Card */}
-            <div className="bg-gradient-to-br from-pink-500 to-fuchsia-600 p-8 rounded-2xl shadow-xl text-white">
+            <div className="bg-gradient-to-br from-pink-400 to-pink-500 p-8 rounded-2xl shadow-xl text-white">
               <h3 className="text-2xl font-bold mb-6">Información</h3>
 
               <div className="space-y-6">
