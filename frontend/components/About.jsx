@@ -6,39 +6,6 @@ import { useState, useEffect } from 'react'
 
 export default function About() {
     const [ref, isVisible] = useInView()
-    const [showCert, setShowCert] = useState(false)
-    const [hasShownCert, setHasShownCert] = useState(false)
-
-    useEffect(() => {
-        if (isVisible && !hasShownCert) {
-            const timer = setTimeout(() => {
-                setShowCert(true)
-                setHasShownCert(true)
-            }, 500) // Small delay for better UX
-            return () => clearTimeout(timer)
-        }
-    }, [isVisible, hasShownCert])
-
-    // Prevent scrolling when popup is open
-    useEffect(() => {
-        if (showCert) {
-            document.body.style.overflow = 'hidden'
-        } else {
-            document.body.style.overflow = 'auto'
-        }
-        return () => {
-            document.body.style.overflow = 'auto'
-        }
-    }, [showCert])
-
-    // Handle popup close with scroll reset
-    const handleClose = () => {
-        setShowCert(false)
-        // Ensure scroll keeps us at the section
-        setTimeout(() => {
-            document.getElementById('nosotros')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
-        }, 100)
-    }
 
     return (
         <section id="nosotros" ref={ref} className="py-24 overflow-hidden">
@@ -129,39 +96,6 @@ export default function About() {
                 </div>
             </div>
 
-            {/* Certificate Popup */}
-            {showCert && (
-                <div className="fixed inset-0 z-[60] flex items-center justify-center px-4 animate-in fade-in duration-300">
-                    {/* Backdrop */}
-                    <div
-                        className="absolute inset-0 bg-black/60 backdrop-blur-sm"
-                        onClick={handleClose}
-                    ></div>
-
-                    {/* Modal Content */}
-                    <div className="relative bg-white rounded-3xl shadow-2xl p-4 max-w-lg md:max-w-3xl w-full transform transition-all animate-in zoom-in-50 duration-300 border-4 border-brand-pink/20">
-                        <button
-                            onClick={handleClose}
-                            className="absolute -top-4 -right-4 bg-brand-pink text-white w-10 h-10 rounded-full flex items-center justify-center shadow-lg hover:bg-pink-600 transition-colors z-20"
-                        >
-                            <X className="w-5 h-5" />
-                        </button>
-
-                        <div className="text-center mb-4 pt-2">
-                            <h4 className="text-2xl font-bold text-gray-800 font-script mb-1">¡Reconocimiento 2025!</h4>
-                            <div className="w-16 h-1 bg-brand-pink mx-auto rounded-full"></div>
-                        </div>
-
-                        <div className="relative rounded-xl overflow-hidden shadow-inner bg-gray-50 border border-gray-100">
-                            <img
-                                src="/images/Certificado_awards_2025.png"
-                                alt="Certificado Awards 2025"
-                                className="w-full h-auto object-contain"
-                            />
-                        </div>
-                    </div>
-                </div>
-            )}
         </section>
     )
 }

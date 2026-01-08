@@ -519,3 +519,73 @@ Import trace:
 [05:51:34.660] Server  LOG      ✓ Compiled in 184ms
 [05:53:26.970] Server  LOG      ✓ Compiled in 204ms
 [05:55:08.470] Server  LOG      ✓ Compiled in 568ms
+[06:17:51.701] Server  LOG      ✓ Compiled in 175ms
+[06:18:08.658] Server  LOG      ✓ Compiled in 229ms
+[06:19:18.634] Server  LOG      ✓ Compiled in 181ms
+[06:21:31.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:23:03.397] Server  LOG      ✓ Compiled in 316ms
+[06:23:36.242] Server  LOG      ✓ Compiled in 470ms
+[06:24:28.820] Server  LOG      ✓ Compiled in 1436ms
+[06:26:25.145] Server  LOG      ✓ Compiled in 395ms
+[06:26:44.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:28:51.593] Server  LOG      ✓ Compiled in 288ms
+[06:29:50.259] Server  LOG      ✓ Compiled in 456ms
+[06:30:00.388] Server  LOG      ✓ Compiled in 270ms
+[06:30:00.663] Browser ERROR   ./components/About.jsx:12:5
+Parsing ecmascript source code failed
+  10 |     return (
+  11 |
+> 12 |     return (
+     |     ^^^^^^
+  13 |         <section id="nosotros" ref={ref} className="py-24 overflow-hidden">
+  14 |             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  15 |                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/About.jsx
+    ./app/page.js
+[06:30:00.663] Browser ERROR   ./components/About.jsx:12:5
+Parsing ecmascript source code failed
+  10 |     return (
+  11 |
+> 12 |     return (
+     |     ^^^^^^
+  13 |         <section id="nosotros" ref={ref} className="py-24 overflow-hidden">
+  14 |             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  15 |                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/About.jsx
+    ./app/page.js
+[06:30:00.849] Browser ERROR   ./components/About.jsx:12:5
+Parsing ecmascript source code failed
+  10 |     return (
+  11 |
+> 12 |     return (
+     |     ^^^^^^
+  13 |         <section id="nosotros" ref={ref} className="py-24 overflow-hidden">
+  14 |             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  15 |                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/About.jsx
+    ./app/page.js
+[06:33:48.045] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:34:07.520] Server  LOG      ✓ Compiled in 397ms
+[06:34:27.847] Server  LOG      ✓ Compiled in 369ms
+[06:39:20.134] Server  LOG      ✓ Compiled in 143ms
+[06:41:25.671] Server  LOG      ✓ Compiled in 125ms
+[06:42:34.981] Server  LOG      ✓ Compiled in 244ms
+[06:43:33.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:46:29.863] Server  LOG      ✓ Compiled in 165ms
+[06:46:36.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:48:28.053] Server  LOG      ✓ Compiled in 231ms

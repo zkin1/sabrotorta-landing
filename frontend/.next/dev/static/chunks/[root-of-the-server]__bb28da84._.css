@@ -1112,6 +1112,10 @@ main > section:nth-child(5):after {
   grid-row: span 2 / span 2;
 }
 
+.row-span-1 {
+  grid-row: span 1 / span 1;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1224,6 +1228,10 @@ main > section:nth-child(5):after {
   aspect-ratio: 1;
 }
 
+.aspect-\[4\/3\] {
+  aspect-ratio: 4 / 3;
+}
+
 .h-1 {
   height: .25rem;
 }
@@ -1320,6 +1328,10 @@ main > section:nth-child(5):after {
   min-height: 100vh;
 }
 
+.min-h-0 {
+  min-height: 0;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1370,6 +1382,10 @@ main > section:nth-child(5):after {
 
 .w-full {
   width: 100%;
+}
+
+.w-auto {
+  width: auto;
 }
 
 .max-w-0 {
@@ -1503,6 +1519,14 @@ main > section:nth-child(5):after {
 
 .resize-none {
   resize: none;
+}
+
+.auto-rows-\[150px\] {
+  grid-auto-rows: 150px;
+}
+
+.auto-rows-\[200px\] {
+  grid-auto-rows: 200px;
 }
 
 .grid-cols-1 {
@@ -1823,6 +1847,10 @@ main > section:nth-child(5):after {
 
 .bg-black\/50 {
   background-color: #00000080;
+}
+
+.bg-black\/20 {
+  background-color: #0003;
 }
 
 .bg-gradient-to-b {
@@ -2851,6 +2879,10 @@ h1, h2, h3, h4, h5, h6, .font-script {
   opacity: 1;
 }
 
+.hover\:opacity-90:hover {
+  opacity: .9;
+}
+
 .hover\:shadow-2xl:hover {
   --tw-shadow: 0 25px 50px -12px #00000040;
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -3143,8 +3175,20 @@ h1, h2, h3, h4, h5, h6, .font-script {
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-span-1 {
+    grid-column: span 1 / span 1;
+  }
+
+  .md\:col-start-2 {
+    grid-column-start: 2;
+  }
+
   .md\:row-span-2 {
     grid-row: span 2 / span 2;
+  }
+
+  .md\:row-span-1 {
+    grid-row: span 1 / span 1;
   }
 
   .md\:my-8 {
@@ -3190,6 +3234,10 @@ h1, h2, h3, h4, h5, h6, .font-script {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:aspect-square {
+    aspect-ratio: 1;
   }
 
   .md\:h-16 {
@@ -3270,6 +3318,10 @@ h1, h2, h3, h4, h5, h6, .font-script {
 
   .md\:auto-rows-\[200px\] {
     grid-auto-rows: 200px;
+  }
+
+  .md\:auto-rows-fr {
+    grid-auto-rows: minmax(0, 1fr);
   }
 
   .md\:grid-cols-2 {
