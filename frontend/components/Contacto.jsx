@@ -58,15 +58,17 @@ export default function Contacto() {
   }
 
   return (
-    <section id="contacto" ref={ref} className="py-24 relative overflow-hidden">
+    <section id="contacto" ref={ref} className="py-16 md:py-24 bg-gradient-to-b from-pink-50/30 to-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
-        <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''} px-4`}>
-          <span className="text-pink-600 font-bold text-base md:text-lg uppercase tracking-wider block mb-2">Hablemos</span>
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6 leading-tight">
+        <div className={`text-center mb-12 md:mb-16 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
+          <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
+            CONTACTO
+          </p>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-800 mb-4 md:mb-6">
             ¡Hagamos Realidad tu Evento!
           </h2>
-          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed px-2">
+          <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto">
             Estamos listos para hacer realidad tus ideas. Respuesta en menos de 24 horas.
           </p>
         </div>
@@ -224,12 +226,12 @@ export default function Contacto() {
               <h3 className="text-2xl font-bold mb-6">Información</h3>
 
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="w-12 h-12 bg-white/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-6 h-6 text-white" />
+                <div className="group flex items-start gap-6">
+                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                    <Phone className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <p className="font-bold mb-1">Teléfono / WhatsApp</p>
+                    <p className="font-bold text-lg mb-2 text-white/90">Teléfono / WhatsApp</p>
                     <a href="tel:+56977794373" className="text-xl font-bold hover:underline">
                       +569 7779 4373
                     </a>

@@ -132,24 +132,6 @@ export default function Footer() {
             </button>
           </div>
         </div>
-
-        {/* Additional Info */}
-        <div className="mt-8 pt-8 border-t border-gray-800 font-sans">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-sm text-gray-500">
-            <div>
-              <p className="font-semibold text-gray-400 mb-2">🍰 Catering Premium</p>
-              <p>Eventos corporativos y familiares</p>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-400 mb-2">🎂 Tortas Decoradas</p>
-              <p>Diseños únicos y personalizados</p>
-            </div>
-            <div>
-              <p className="font-semibold text-gray-400 mb-2">🎉 Organización de Eventos</p>
-              <p>Servicio integral completo</p>
-            </div>
-          </div>
-        </div>
       </div>
     </footer>
   )

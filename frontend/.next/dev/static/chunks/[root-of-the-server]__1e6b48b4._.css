@@ -1095,10 +1095,6 @@ main > section:nth-child(5):after {
   margin-top: 4rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
@@ -1389,10 +1385,6 @@ main > section:nth-child(5):after {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-1 {
-  gap: .25rem;
 }
 
 .gap-12 {
@@ -1927,10 +1919,6 @@ main > section:nth-child(5):after {
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pt-4 {
-  padding-top: 1rem;
 }
 
 .pt-8 {

@@ -44,6 +44,14 @@ h6 {
   font-family: var(--font-dancing), cursive;
 }
 
+.font-script {
+  font-family: var(--font-dancing), cursive;
+}
+
+.font-serif {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
 /* Professional section backgrounds with visible glowing orbs */
 @layer components {
 

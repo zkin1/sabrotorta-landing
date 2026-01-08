@@ -59,24 +59,7 @@ export default function Clientes() {
           </p>
         </div>
 
-        {/* Stats Grid - Hidden on mobile for simplicity */}
-        <div className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-6 mb-20">
-          {stats.map((stat, index) => (
-            <div
-              key={index}
-              className={`bg-white p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center border border-gray-100 will-animate ${isVisible ? 'animate-in-up' : ''}`}
-              style={{ animationDelay: `${0.1 * (index + 1)}s` }}
-            >
-              <div className={`inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br ${stat.color} rounded-lg mb-4 shadow-md`}>
-                <stat.icon className="w-6 h-6 text-white" />
-              </div>
-              <div className={`text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r ${stat.color} mb-2`}>
-                {stat.value}
-              </div>
-              <div className="text-gray-600 font-semibold">{stat.label}</div>
-            </div>
-          ))}
-        </div>
+  
 
         {/* Clients Grid */}
         <div className="mb-20">
