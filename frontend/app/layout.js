@@ -65,11 +65,12 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: '/favicon.ico' },
+      { url: '/logo.jpg', sizes: 'any' },
+    ],
+    shortcut: '/logo.jpg',
+    apple: [
       { url: '/logo.jpg', type: 'image/jpeg' }
     ],
-    shortcut: '/favicon.ico',
-    apple: '/logo.jpg',
   },
   alternates: {
     canonical: '/',
