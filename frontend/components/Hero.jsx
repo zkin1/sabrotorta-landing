@@ -15,7 +15,7 @@ export default function Hero() {
           <img
             src="/assets/images/banner-pc.png"
             alt="Sabrotortas Banner"
-            className="w-full h-full object-cover object-center md:blur-[6px] md:scale-105 transform transition-transform duration-700 md:hover:scale-100 will-change-transform"
+            className="w-full h-full object-cover object-center md:blur-[6px] md:scale-105"
           />
         </picture>
         <div className="absolute inset-0 bg-black/60"></div>
