@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <picture>
-          <source media="(max-width: 768px)" srcSet="/assets/images/banner-mobile.png" />
+          <source media="(max-width: 768px)" srcSet="/images/galeria/gallery-14.jpeg" />
           <img
             src="/assets/images/banner-pc.png"
             alt="Sabrotortas Banner"
