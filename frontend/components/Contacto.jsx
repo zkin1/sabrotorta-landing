@@ -160,9 +160,7 @@ export default function Contacto() {
                   <option value="">Selecciona un servicio</option>
                   <option value="Tortas Decoradas">Tortas Decoradas</option>
                   <option value="Catering">Catering (Empresas/Particular)</option>
-                  <option value="Coffe Break">Coffe Break</option>
-                  <option value="Brunch">Brunch</option>
-                  <option value="Preparación de Eventos">Preparación de Eventos (Decoración/Mobiliario)</option>
+                  <option value="Preparación de Eventos">Preparación de Eventos</option>
                 </select>
               </div>
 
