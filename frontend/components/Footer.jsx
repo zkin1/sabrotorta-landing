@@ -30,32 +30,6 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Column 2: Quick Links */}
-          <div>
-            <h4 className="text-xl font-bold mb-6 text-white font-sans">Enlaces Rápidos</h4>
-            <ul className="space-y-4 font-sans">
-              <li>
-                <a href="#servicios" className="text-gray-400 hover:text-brand-pink transition-colors flex items-center gap-2 group">
-                  <span className="w-2 h-2 bg-brand-pink rounded-full group-hover:scale-150 transition-transform"></span>
-                  Nuestros Servicios
-                </a>
-              </li>
-              <li>
-                <a href="#contacto" className="text-gray-400 hover:text-brand-pink transition-colors flex items-center gap-2 group">
-                  <span className="w-2 h-2 bg-brand-pink rounded-full group-hover:scale-150 transition-transform"></span>
-                  Contacto
-                </a>
-              </li>
-
-              <li>
-                <a href="https://www.matrimonios.cl/torta-novios/sabrotortas--e109387" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-brand-pink transition-colors flex items-center gap-2 group">
-                  <span className="w-2 h-2 bg-brand-pink rounded-full group-hover:scale-150 transition-transform"></span>
-                  Matrimonios.cl
-                </a>
-              </li>
-            </ul>
-          </div>
-
           {/* Column 3: Contact */}
           <div>
             <h4 className="text-xl font-bold mb-6 text-white font-sans">Contacto Directo</h4>

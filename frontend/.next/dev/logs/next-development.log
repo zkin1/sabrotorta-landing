@@ -209,3 +209,5 @@ Import trace:
   Server Component:
     ./components/Footer.jsx
     ./app/page.js
+[01:33:40.168] Server  LOG      ✓ Compiled in 142ms
+[01:33:44.612] Server  LOG      ✓ Compiled in 134ms
