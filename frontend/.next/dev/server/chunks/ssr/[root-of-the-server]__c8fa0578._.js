@@ -69,7 +69,7 @@ function JsonLd() {
         '@context': 'https://schema.org',
         '@type': 'LocalBusiness',
         name: 'Sabrotortas',
-        image: 'https://sabrotortas.cl/logo.jpg',
+        image: 'https://sabrotortas.cl/logo.webp',
         description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago. Resolución Sanitaria N° 12343/2006.',
         url: 'https://sabrotortas.cl',
         telephone: '+56977794373',
@@ -177,7 +177,7 @@ const metadata = {
         type: 'website',
         images: [
             {
-                url: '/logo.jpg',
+                url: 'https://sabrotortas.cl/logo.webp',
                 width: 800,
                 height: 600,
                 alt: 'Sabrotortas Logo'
@@ -189,7 +189,7 @@ const metadata = {
         title: 'Sabrotortas - Tortas Decoradas y Catering',
         description: 'Expertos en repostería y catering para todo tipo de eventos.',
         images: [
-            'logo.jpg'
+            '/logo.webp'
         ]
     },
     robots: {
@@ -206,15 +206,20 @@ const metadata = {
     icons: {
         icon: [
             {
-                url: '/logo.jpg',
+                url: '/logo.webp',
+                sizes: 'any',
+                type: 'image/webp'
+            },
+            {
+                url: '/favicon.ico',
                 sizes: 'any'
             }
         ],
-        shortcut: '/logo.jpg',
         apple: [
             {
-                url: '/logo.jpg',
-                type: 'image/jpeg'
+                url: '/apple-touch-icon.png',
+                sizes: '180x180',
+                type: 'image/png'
             }
         ]
     },

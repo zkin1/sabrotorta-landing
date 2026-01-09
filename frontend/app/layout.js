@@ -39,7 +39,7 @@ export const metadata = {
     type: 'website',
     images: [
       {
-        url: '/logo.jpg',
+        url: 'https://sabrotortas.cl/logo.webp',
         width: 800,
         height: 600,
         alt: 'Sabrotortas Logo',
@@ -50,7 +50,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Sabrotortas - Tortas Decoradas y Catering',
     description: 'Expertos en repostería y catering para todo tipo de eventos.',
-    images: ['logo.jpg'],
+    images: ['/logo.webp'],
   },
   robots: {
     index: true,
@@ -65,11 +65,11 @@ export const metadata = {
   },
   icons: {
     icon: [
-      { url: '/logo.jpg', sizes: 'any' },
+      { url: '/logo.webp', sizes: 'any', type: 'image/webp' },
+      { url: '/favicon.ico', sizes: 'any' }
     ],
-    shortcut: '/logo.jpg',
     apple: [
-      { url: '/logo.jpg', type: 'image/jpeg' }
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
   alternates: {

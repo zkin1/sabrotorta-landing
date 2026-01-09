@@ -14,7 +14,7 @@ export default function Galeria() {
     const allImages = useMemo(() =>
         Array.from({ length: 17 }, (_, i) => ({
             id: i + 1,
-            image: `/images/galeria/gallery-${i + 1}.jpeg`,
+            image: `/images/galeria/gallery-${i + 1}.webp`,
             alt: `Creación ${i + 1}`
         })), []
     )
@@ -79,7 +79,7 @@ export default function Galeria() {
                     {previewImages.map((item, index) => {
                         // Layout Bento para móvil y desktop
                         let spanClass = ''
-                        
+
                         if (index === 0) {
                             // Primera imagen: Grande (2 filas) en móvil y desktop
                             spanClass = 'row-span-2'

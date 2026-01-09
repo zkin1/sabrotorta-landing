@@ -13,21 +13,21 @@ export default function Servicios() {
       titleMain: 'Catering',
       titleAccent: 'Corporativo',
       description: 'Ofrecemos servicios de catering, coffees y brunchs para empresas e instituciones. Más de 10 años de experiencia atendiendo a empresas destacadas con estándares de excelencia. Cada evento es una oportunidad para crear experiencias memorables que reflejan la calidad y profesionalismo de tu marca.',
-      image: '/images/servicios/catering.png'
+      image: '/images/servicios/catering.webp'
     },
     {
       id: 'reposteria',
       titleMain: 'Repostería',
       titleAccent: 'de Autor',
       description: 'Creamos tortas únicas y personalizadas para cada ocasión. Alta calidad e innovación en diseños y sabores. Cada torta es una obra de arte comestible que combina técnicas artesanales con ingredientes premium. Nos especializamos en transformar tus ideas en creaciones dulces que sorprenden y deleitan.',
-      image: '/images/servicios/reposteria.jpg'
+      image: '/images/servicios/reposteria.webp'
     },
     {
       id: 'organizacion',
       titleMain: 'Organización',
       titleAccent: 'Integral',
       description: 'Contamos con personal profesional y equipamiento completo para tus celebraciones familiares y empresariales. Te acompañamos en cada detalle, desde la planificación inicial hasta la ejecución final. Nuestro equipo se encarga de crear ambientes únicos que reflejan tu estilo y hacen de tu evento una experiencia inolvidable.',
-      image: '/images/servicios/organizacion.png'
+      image: '/images/servicios/organizacion.webp'
     }
   ]
 
@@ -104,7 +104,7 @@ export default function Servicios() {
         ))}
       </div>
 
-      
+
     </section>
   )
 }

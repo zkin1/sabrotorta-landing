@@ -73,7 +73,7 @@ export default function About() {
                         <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                             {/* Usamos torta-5.png como foto principal de la historia */}
                             <img
-                                src="/images/galeria/torta-5.png"
+                                src="/images/galeria/torta-5.webp"
                                 alt="Experiencia Sabrotortas"
                                 className="w-full h-auto object-cover"
                                 onError={(e) => {

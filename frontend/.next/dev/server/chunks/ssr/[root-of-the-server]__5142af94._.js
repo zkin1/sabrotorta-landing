@@ -74,14 +74,14 @@ function Hero() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("source", {
                                 media: "(max-width: 768px)",
-                                srcSet: "/images/galeria/gallery-14.jpeg"
+                                srcSet: "/images/galeria/gallery-14.webp"
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.jsx",
                                 lineNumber: 14,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                src: "/assets/images/banner-pc.png",
+                                src: "/assets/images/banner-pc.webp",
                                 alt: "Sabrotortas Banner",
                                 className: "w-full h-full object-cover object-center md:blur-[6px] md:scale-105"
                             }, void 0, false, {
@@ -468,7 +468,7 @@ function About() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative z-10 rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                    src: "/images/galeria/torta-5.png",
+                                    src: "/images/galeria/torta-5.webp",
                                     alt: "Experiencia Sabrotortas",
                                     className: "w-full h-auto object-cover",
                                     onError: (e)=>{
@@ -570,21 +570,21 @@ function Servicios() {
             titleMain: 'Catering',
             titleAccent: 'Corporativo',
             description: 'Ofrecemos servicios de catering, coffees y brunchs para empresas e instituciones. Más de 10 años de experiencia atendiendo a empresas destacadas con estándares de excelencia. Cada evento es una oportunidad para crear experiencias memorables que reflejan la calidad y profesionalismo de tu marca.',
-            image: '/images/servicios/catering.png'
+            image: '/images/servicios/catering.webp'
         },
         {
             id: 'reposteria',
             titleMain: 'Repostería',
             titleAccent: 'de Autor',
             description: 'Creamos tortas únicas y personalizadas para cada ocasión. Alta calidad e innovación en diseños y sabores. Cada torta es una obra de arte comestible que combina técnicas artesanales con ingredientes premium. Nos especializamos en transformar tus ideas en creaciones dulces que sorprenden y deleitan.',
-            image: '/images/servicios/reposteria.jpg'
+            image: '/images/servicios/reposteria.webp'
         },
         {
             id: 'organizacion',
             titleMain: 'Organización',
             titleAccent: 'Integral',
             description: 'Contamos con personal profesional y equipamiento completo para tus celebraciones familiares y empresariales. Te acompañamos en cada detalle, desde la planificación inicial hasta la ejecución final. Nuestro equipo se encarga de crear ambientes únicos que reflejan tu estilo y hacen de tu evento una experiencia inolvidable.',
-            image: '/images/servicios/organizacion.png'
+            image: '/images/servicios/organizacion.webp'
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1952,7 +1952,7 @@ function Galeria() {
             length: 17
         }, (_, i)=>({
                 id: i + 1,
-                image: `/images/galeria/gallery-${i + 1}.jpeg`,
+                image: `/images/galeria/gallery-${i + 1}.webp`,
                 alt: `Creación ${i + 1}`
             })), []);
     // Imágenes destacadas para preview (8 imágenes para mejor balance)
