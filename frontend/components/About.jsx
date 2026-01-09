@@ -19,11 +19,11 @@ export default function About() {
                             <span>Desde 2006</span>
                         </div>
 
-                        <h2 className="text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight font-script">
+                        <h2 className="text-5xl md:text-6xl  text-gray-800 mb-6 leading-tight font-script">
                             Una historia de <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-pink to-brand-lightPink">pasión y compromiso</span>
                         </h2>
 
-                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed font-sans">
+                        <div className="space-y-6 text-lg text-gray-600 leading-relaxed ">
                             {/* Mobile Summary */}
                             <div className="block md:hidden">
                                 <p className="mb-6">

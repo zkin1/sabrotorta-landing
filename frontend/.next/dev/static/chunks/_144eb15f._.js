@@ -122,7 +122,7 @@ function Hero() {
                     className: "max-w-4xl",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up",
+                            className: "text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up opacity-0",
                             children: "El arte de celebrar"
                         }, void 0, false, {
                             fileName: "[project]/components/Hero.jsx",
@@ -130,7 +130,7 @@ function Hero() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "mb-4 sm:mb-6 animate-fade-in-up",
+                            className: "mb-4 sm:mb-6 animate-fade-in-up opacity-0",
                             style: {
                                 animationDelay: '0.1s'
                             },
@@ -157,7 +157,7 @@ function Hero() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-4 sm:mb-8 max-w-xl sm:max-w-2xl font-light leading-relaxed animate-fade-in-up",
+                            className: "text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-4 sm:mb-8 max-w-xl sm:max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0",
                             style: {
                                 animationDelay: '0.2s'
                             },
@@ -179,7 +179,7 @@ function Hero() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0",
+                            className: "flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 opacity-0",
                             style: {
                                 animationDelay: '0.3s'
                             },
@@ -314,7 +314,7 @@ function About() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-5xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight font-script",
+                                className: "text-5xl md:text-6xl  text-gray-800 mb-6 leading-tight font-script",
                                 children: [
                                     "Una historia de ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -332,7 +332,7 @@ function About() {
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "space-y-6 text-lg text-gray-600 leading-relaxed font-sans",
+                                className: "space-y-6 text-lg text-gray-600 leading-relaxed ",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "block md:hidden",

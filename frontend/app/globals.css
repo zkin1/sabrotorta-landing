@@ -23,7 +23,7 @@
   body {
     color: var(--foreground);
     background: #FFFFFF;
-    font-family: var(--font-inter), sans-serif;
+    font-family: var(--font-lato), sans-serif;
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;

@@ -262,7 +262,7 @@ img, video {
 
 body {
   color: var(--foreground);
-  font-family: var(--font-inter), sans-serif;
+  font-family: var(--font-lato), sans-serif;
   background: #fff;
   min-height: 100vh;
   position: relative;
@@ -1228,6 +1228,22 @@ main > section:nth-child(5):after {
 
 .animate-bounce {
   animation: 1s infinite bounce;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: .8s ease-out forwards fadeInUp;
 }
 
 @keyframes pulse {

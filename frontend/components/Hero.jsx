@@ -26,12 +26,12 @@ export default function Hero() {
         <div className="max-w-4xl">
 
           {/* Kicker */}
-          <span className="text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up">
+          <span className="text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up opacity-0">
             El arte de celebrar
           </span>
 
           {/* Main Title */}
-          <h1 className="mb-4 sm:mb-6 animate-fade-in-up" style={{ animationDelay: '0.1s' }}>
+          <h1 className="mb-4 sm:mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
             <span className="font-script text-7xl sm:text-7xl md:text-8xl lg:text-9xl bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent block mb-1 sm:mb-2 leading-tight">
               Sabrotortas
             </span>
@@ -40,12 +40,12 @@ export default function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-4 sm:mb-8 max-w-xl sm:max-w-2xl font-light leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-4 sm:mb-8 max-w-xl sm:max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
             Donde cada creación es un testimonio de <span className="text-brand-lightPink font-medium">pasión, arte y atención impecable al detalle</span>. Catering y repostería para eventos inolvidables.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0" style={{ animationDelay: '0.3s' }}>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 opacity-0" style={{ animationDelay: '0.3s' }}>
             <a
               href="#contacto"
               className="bg-brand-pink text-white px-6 py-3 sm:px-8 sm:py-4 rounded-sm font-bold text-sm sm:text-base md:text-lg tracking-wide hover:bg-pink-600 transition-colors duration-300 flex items-center justify-center gap-2 uppercase w-full sm:w-auto shadow-lg"

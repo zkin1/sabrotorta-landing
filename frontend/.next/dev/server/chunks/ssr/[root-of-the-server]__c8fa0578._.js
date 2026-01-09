@@ -55,6 +55,70 @@ if (__TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$d
 }
 const __TURBOPACK__default__export__ = fontData;
 }),
+"[project]/components/JsonLd.jsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>JsonLd
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+;
+function JsonLd() {
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'LocalBusiness',
+        name: 'Sabrotortas',
+        image: 'https://sabrotortas.cl/logo.jpg',
+        description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago. Resolución Sanitaria N° 12343/2006.',
+        url: 'https://sabrotortas.cl',
+        telephone: '+56977794373',
+        email: 'ventas@sabrotortas.cl',
+        address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Huechuraba',
+            addressRegion: 'Metropolitana',
+            addressCountry: 'CL'
+        },
+        geo: {
+            '@type': 'GeoCoordinates',
+            latitude: '-33.3656',
+            longitude: '-70.7261'
+        },
+        openingHoursSpecification: [
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: [
+                    'Monday',
+                    'Tuesday',
+                    'Wednesday',
+                    'Thursday',
+                    'Friday'
+                ],
+                opens: '09:00',
+                closes: '19:00'
+            },
+            {
+                '@type': 'OpeningHoursSpecification',
+                dayOfWeek: 'Saturday',
+                opens: '10:00',
+                closes: '14:00'
+            }
+        ],
+        priceRange: '$$'
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+        type: "application/ld+json",
+        dangerouslySetInnerHTML: {
+            __html: JSON.stringify(jsonLd)
+        }
+    }, void 0, false, {
+        fileName: "[project]/components/JsonLd.jsx",
+        lineNumber: 46,
+        columnNumber: 9
+    }, this);
+}
+}),
 "[project]/app/layout.js [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -67,6 +131,8 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$lato_6b54df81$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/lato_6b54df81.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$dancing_script_46682932$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[next]/internal/font/google/dancing_script_46682932.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$JsonLd$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/JsonLd.jsx [app-rsc] (ecmascript)");
+;
 ;
 ;
 ;
@@ -78,7 +144,7 @@ const metadata = {
         default: 'Sabrotortas - Tortas Decoradas, Catering y Eventos',
         template: '%s | Sabrotortas'
     },
-    description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago. Más de 18 años de experiencia creando momentos inolvidables.',
+    description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago. Más de 18 años de experiencia. Resolución Sanitaria N° 12343/2006. Cotización en 24hrs.',
     keywords: [
         'tortas decoradas',
         'catering',
@@ -121,9 +187,9 @@ const metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Sabrotortas - Tortas Decoradas y Catering',
-        description: 'Expertos en repostería fina y catering para todo tipo de eventos.',
+        description: 'Expertos en repostería y catering para todo tipo de eventos.',
         images: [
-            '/logo.jpg'
+            'logo.jpg'
         ]
     },
     robots: {
@@ -164,15 +230,22 @@ function RootLayout({ children }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("body", {
             className: "font-sans antialiased",
             suppressHydrationWarning: true,
-            children: children
-        }, void 0, false, {
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$JsonLd$2e$jsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/app/layout.js",
+                    lineNumber: 83,
+                    columnNumber: 9
+                }, this),
+                children
+            ]
+        }, void 0, true, {
             fileName: "[project]/app/layout.js",
-            lineNumber: 81,
+            lineNumber: 82,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/layout.js",
-        lineNumber: 80,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 }
@@ -184,4 +257,4 @@ module.exports = __turbopack_context__.r("[project]/node_modules/next/dist/serve
 }),
 ];
 
-//# sourceMappingURL=%5Broot-of-the-server%5D__37255378._.js.map
+//# sourceMappingURL=%5Broot-of-the-server%5D__c8fa0578._.js.map

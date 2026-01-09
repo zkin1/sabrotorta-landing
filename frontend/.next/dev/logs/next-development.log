@@ -2,3 +2,159 @@
 [00:00:16.058] Server  LOG      ○ Compiling / ...
 [00:00:16.973] Server  WARN     ⚠ Cross origin request detected from 192.168.100.3 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:17:24.358] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:31.081] Server  LOG      ✓ Compiled in 3.5s
+[00:17:31.199] Browser ERROR   ./app/animations.css
+Error evaluating Node.js code
+SyntaxError: Unexpected token, expected ";" (44:12)
+    [at unexpected (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:99:15)]
+    [at semicolon (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:77:5)]
+    [at parseStatementContent (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:251:21)]
+    [at parseStatement (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:116:3)]
+    [at parseBlockBody (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:586:5)]
+    [at parseTopLevel (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:92:3)]
+    [at parseFile (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\index.js:17:35)]
+    [at parse (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\index.js:26:35)]
+    [at getSucraseContext (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:95:30)]
+    [at transform (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:38:28)]
+
+Import trace:
+  Client Component Browser:
+    ./app/animations.css [Client Component Browser]
+    ./app/layout.js [Server Component]
+[00:17:31.199] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+SyntaxError: Unexpected token, expected ";" (44:12)
+    [at unexpected (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:99:15)]
+    [at semicolon (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:77:5)]
+    [at parseStatementContent (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:251:21)]
+    [at parseStatement (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:116:3)]
+    [at parseBlockBody (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:586:5)]
+    [at parseTopLevel (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:92:3)]
+    [at parseFile (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\index.js:17:35)]
+    [at parse (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\index.js:26:35)]
+    [at getSucraseContext (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:95:30)]
+    [at transform (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:38:28)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.js [Server Component]
+[00:17:31.200] Browser ERROR   ./tailwind.config.js:44:12
+Parsing ecmascript source code failed
+  42 |     },
+  43 | },
+> 44 |     plugins: [],
+     |            ^
+  45 | }
+  46 |
+
+Expected ';', '}' or <eof>
+[00:17:43.947] Browser ERROR   ./app/animations.css
+Error evaluating Node.js code
+SyntaxError: Unexpected token, expected ";" (12:15)
+    [at unexpected (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:99:15)]
+    [at semicolon (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:77:5)]
+    [at parseStatementContent (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:251:21)]
+    [at parseStatement (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:116:3)]
+    [at parseBlockBody (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:586:5)]
+    [at parseTopLevel (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:92:3)]
+    [at parseFile (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\index.js:17:35)]
+    [at parse (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\index.js:26:35)]
+    [at getSucraseContext (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:95:30)]
+    [at transform (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:38:28)]
+
+Import trace:
+  Client Component Browser:
+    ./app/animations.css [Client Component Browser]
+    ./app/layout.js [Server Component]
+[00:17:43.947] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+SyntaxError: Unexpected token, expected ";" (12:15)
+    [at unexpected (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:99:15)]
+    [at semicolon (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\util.js:77:5)]
+    [at parseStatementContent (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:251:21)]
+    [at parseStatement (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:116:3)]
+    [at parseBlockBody (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:586:5)]
+    [at parseTopLevel (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\statement.js:92:3)]
+    [at parseFile (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\traverser\index.js:17:35)]
+    [at parse (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\parser\index.js:26:35)]
+    [at getSucraseContext (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:95:30)]
+    [at transform (C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\sucrase\dist\index.js:38:28)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.js [Server Component]
+[00:17:43.947] Browser ERROR   ./tailwind.config.js:12:15
+Parsing ecmascript source code failed
+  10 |     }
+  11 | },
+> 12 |     fontFamily: {
+     |               ^
+  13 |     sans: ['var(--font-lato)', 'sans-serif'],
+  14 |         script: ['var(--font-dancing)', 'cursive'],
+  15 |         },
+
+Expected ';', '}' or <eof>
+[00:18:29.245] Server  LOG      ✓ Compiled in 1150ms
+[00:23:01.673] Server  LOG      ✓ Compiled in 166ms
+[00:23:05.357] Server  LOG      ✓ Compiled in 124ms
+[00:23:10.751] Server  LOG      ✓ Compiled in 114ms
+[00:23:12.083] Server  LOG      ✓ Compiled in 102ms
+[00:23:14.477] Server  LOG      ✓ Compiled in 118ms
+[00:23:18.608] Server  LOG      ✓ Compiled in 97ms
+[00:23:21.153] Server  LOG      ✓ Compiled in 110ms
+[00:23:24.430] Server  LOG      ✓ Compiled in 124ms
+[00:23:29.003] Server  LOG      ✓ Compiled in 105ms
+[00:24:39.303] Server  LOG      ✓ Compiled in 534ms
+[00:24:41.870] Server  LOG      ✓ Compiled in 1118ms
+[00:24:43.309] Server  LOG      ✓ Compiled in 491ms
+[00:24:45.117] Server  LOG      ✓ Compiled in 477ms
+[00:24:55.511] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:59.423] Server  LOG      ✓ Compiled in 194ms
+[00:25:57.921] Server  LOG      ✓ Compiled in 150ms
+[00:26:01.448] Server  LOG      ✓ Compiled in 124ms
+[00:26:03.145] Server  LOG      ✓ Compiled in 124ms
+[00:26:06.242] Server  LOG      ✓ Compiled in 96ms
+[00:26:12.685] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:29.856] Server  LOG      ✓ Compiled in 492ms
+[00:29:41.080] Server  LOG      ✓ Compiled in 216ms
+[00:30:48.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:36.880] Server  LOG      ✓ Compiled in 1453ms
+[00:32:50.759] Server  LOG      ✓ Compiled in 176ms
+[00:33:56.629] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:02.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:46.946] Browser ERROR   ./components/JsonLd.jsx:9:20
+Parsing ecmascript source code failed
+   7 |         description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago.',
+   8 |         url: 'https://sabrotortas.cl',
+>  9 |         telephone: '
+     |                    ^
+  10 |         address: {
+  11 |             '@type': 'PostalAddress',
+  12 |             addressLocality: 'Huechuraba',
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/JsonLd.jsx
+    ./app/layout.js
+[00:46:48.946] Browser ERROR   ./components/JsonLd.jsx:9:20
+Parsing ecmascript source code failed
+   7 |         description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago.',
+   8 |         url: 'https://sabrotortas.cl',
+>  9 |         telephone: '
+     |                    ^
+  10 |         address: {
+  11 |             '@type': 'PostalAddress',
+  12 |             addressLocality: 'Huechuraba',
+
+Unterminated string constant
+
+Import trace:
+  Server Component:
+    ./components/JsonLd.jsx
+    ./app/layout.js
+[00:47:20.593] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
