@@ -91,7 +91,7 @@ function Hero() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                 src: "/assets/images/banner-pc.png",
                                 alt: "Sabrotortas Banner",
-                                className: "w-full h-full object-cover object-center"
+                                className: "w-full h-full object-cover object-center md:blur-[6px] md:scale-105 transform transition-transform duration-700 md:hover:scale-100 will-change-transform"
                             }, void 0, false, {
                                 fileName: "[project]/components/Hero.jsx",
                                 lineNumber: 15,
