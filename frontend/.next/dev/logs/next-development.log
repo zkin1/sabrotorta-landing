@@ -181,3 +181,31 @@ Import trace:
 [01:23:09.477] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:23:16.194] Server  LOG      ✓ Compiled in 985ms
 [01:23:16.449] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:21.254] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:30:11.538] Server  LOG      ✓ Compiled in 141ms
+[01:30:11.817] Browser ERROR   ./components/Footer.jsx:122:1
+Parsing ecmascript source code failed
+  120 |     </footer>
+  121 |   )
+> 122 | }
+      | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Footer.jsx
+    ./app/page.js
+[01:30:11.946] Browser ERROR   ./components/Footer.jsx:122:1
+Parsing ecmascript source code failed
+  120 |     </footer>
+  121 |   )
+> 122 | }
+      | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import trace:
+  Server Component:
+    ./components/Footer.jsx
+    ./app/page.js
