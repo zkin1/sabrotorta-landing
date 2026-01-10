@@ -37,7 +37,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <Mail className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
-                  <p className="text-gray-500 text-sm">Email</p>
+                  <p className="text-gray-300 text-sm">Email</p>
                   <a href="mailto:ventas@sabrotortas.cl" className="text-gray-300 hover:text-brand-pink transition-colors">
                     ventas@sabrotortas.cl
                   </a>
@@ -46,7 +46,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <Phone className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
-                  <p className="text-gray-500 text-sm">Teléfono/WhatsApp</p>
+                  <p className="text-gray-300 text-sm">Teléfono/WhatsApp</p>
                   <a href="tel:+56977794373" className="text-gray-300 hover:text-brand-pink transition-colors">
                     +569 7779 4373
                   </a>
@@ -55,7 +55,7 @@ export default function Footer() {
               <li className="flex items-start gap-3 group">
                 <MapPin className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
-                  <p className="text-gray-500 text-sm">Ubicación</p>
+                  <p className="text-gray-300 text-sm">Ubicación</p>
                   <p className="text-gray-300">Huechuraba, Santiago</p>
                 </div>
               </li>
@@ -71,13 +71,13 @@ export default function Footer() {
               <p className="text-gray-400 flex items-center justify-center md:justify-start gap-2 mb-2">
                 Hecho con <Heart className="w-4 h-4 text-brand-pink fill-brand-pink animate-pulse" /> por Sabrotortas
               </p>
-              <p className="text-sm text-gray-500 font-semibold mb-1">
+              <p className="text-sm text-gray-300 font-semibold mb-1">
                 Resolución Sanitaria N° 12343/2006
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-300">
                 © {new Date().getFullYear()} Sabrotortas - Yannett Sandoval Saldaña
               </p>
-              <p className="text-xs text-gray-600 mt-1">
+              <p className="text-xs text-gray-400 mt-1">
                 Todos los derechos reservados
               </p>
             </div>

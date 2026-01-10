@@ -2,6 +2,7 @@
 
 import { ArrowRight } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
+import Image from 'next/image'
 
 export default function Hero() {
   const [ref, isVisible] = useInView()
@@ -10,14 +11,26 @@ export default function Hero() {
     <section ref={ref} className="relative min-h-[700px] sm:min-h-screen flex items-end sm:items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <picture>
-          <source media="(max-width: 768px)" srcSet="/images/galeria/gallery-14.webp" />
-          <img
-            src="/assets/images/banner-pc.webp"
-            alt="Sabrotortas Banner"
-            className="w-full h-full object-cover object-center md:blur-[6px] md:scale-105"
-          />
-        </picture>
+        {/* Mobile Image */}
+        <Image
+          src="/images/galeria/gallery-14.webp"
+          alt="Sabrotortas Banner"
+          fill
+          priority
+          quality={85}
+          sizes="(max-width: 768px) 100vw, 0vw"
+          className="object-cover object-center md:hidden"
+        />
+        {/* Desktop Image */}
+        <Image
+          src="/assets/images/banner-pc.webp"
+          alt="Sabrotortas Banner"
+          fill
+          priority
+          quality={85}
+          sizes="(min-width: 769px) 100vw, 0vw"
+          className="hidden md:block object-cover object-center blur-[6px] scale-105"
+        />
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
 

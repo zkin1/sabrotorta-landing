@@ -3,6 +3,7 @@
 import { useInView } from '@/hooks/useInView'
 import { CheckCircle, Award, History, X } from 'lucide-react'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 
 export default function About() {
     const [ref, isVisible] = useInView()
@@ -72,13 +73,14 @@ export default function About() {
                         {/* Main Image Frame */}
                         <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500">
                             {/* Usamos torta-5.png como foto principal de la historia */}
-                            <img
+                            <Image
                                 src="/images/galeria/torta-5.webp"
                                 alt="Experiencia Sabrotortas"
+                                width={897}
+                                height={597}
+                                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
+                                quality={85}
                                 className="w-full h-auto object-cover"
-                                onError={(e) => {
-                                    e.target.src = "https://images.unsplash.com/photo-1555244162-803834f70033?q=80&w=2070&auto=format&fit=crop"
-                                }}
                             />
                         </div>
 

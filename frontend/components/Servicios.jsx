@@ -3,6 +3,7 @@
 // components/Servicios.jsx - VERSIÓN INMERSIVA
 import { ArrowRight } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
+import Image from 'next/image'
 
 export default function Servicios() {
   const [ref, isVisible] = useInView()
@@ -53,15 +54,13 @@ export default function Servicios() {
           >
             {/* Background Image */}
             <div className="absolute inset-0 overflow-hidden">
-              <img
+              <Image
                 src={servicio.image}
                 alt={`${servicio.titleMain} ${servicio.titleAccent}`}
-                className="w-full h-full object-cover"
-                style={{
-                  objectFit: 'cover',
-                  objectPosition: 'center center',
-                  filter: 'brightness(0.6)'
-                }}
+                fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 90vw, 1200px"
+                quality={85}
+                className="object-cover brightness-[0.6]"
               />
               {/* Overlay Oscuro */}
               <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/30 to-black/40" />

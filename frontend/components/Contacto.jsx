@@ -269,6 +269,7 @@ export default function Contacto() {
                     href="https://instagram.com/_u/sabrotortas.cl/"
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Visitar Instagram de Sabrotortas"
                     className="group/social w-14 h-14 bg-white/20 backdrop-blur-sm hover:bg-white rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-12"
                   >
                     <Instagram className="w-7 h-7 text-white group-hover/social:text-pink-500 transition-colors" />
@@ -277,6 +278,7 @@ export default function Contacto() {
                     href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label="Contactar por WhatsApp"
                     className="group/social w-14 h-14 bg-white/20 backdrop-blur-sm hover:bg-white rounded-2xl flex items-center justify-center transition-all duration-300 hover:scale-110 hover:rotate-12"
                   >
                     <MessageCircle className="w-7 h-7 text-white group-hover/social:text-green-500 transition-colors" />

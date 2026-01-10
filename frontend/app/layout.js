@@ -7,11 +7,15 @@ const lato = Lato({
   weight: ['100', '300', '400', '700', '900'],
   subsets: ['latin'],
   variable: '--font-lato',
+  display: 'swap',
+  preload: true,
 })
 
 const dancingScript = Dancing_Script({
   subsets: ['latin'],
   variable: '--font-dancing',
+  display: 'swap',
+  preload: true,
 })
 
 export const metadata = {
