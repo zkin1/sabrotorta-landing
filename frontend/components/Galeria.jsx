@@ -12,7 +12,7 @@ export default function Galeria() {
 
     // Memoize gallery images to prevent recreation on every render
     const allImages = useMemo(() =>
-        Array.from({ length: 17 }, (_, i) => ({
+        Array.from({ length: 18 }, (_, i) => ({
             id: i + 1,
             image: `/images/galeria/gallery-${i + 1}.webp`,
             alt: `Creación ${i + 1}`

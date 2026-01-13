@@ -16,8 +16,6 @@ export default function Hero() {
           src="/images/galeria/gallery-14.webp"
           alt="Sabrotortas Banner"
           fill
-          priority
-          fetchPriority="high"
           quality={85}
           sizes="(max-width: 768px) 100vw, 0vw"
           className="object-cover object-center md:hidden"

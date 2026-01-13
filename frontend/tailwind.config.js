@@ -28,6 +28,14 @@ module.exports = {
                     '0%': { opacity: '0', transform: 'translateY(20px)' },
                     '100%': { opacity: '1', transform: 'translateY(0)' },
                 },
+                fadeInLeft: {
+                    '0%': { opacity: '0', transform: 'translateX(-20px)' },
+                    '100%': { opacity: '1', transform: 'translateX(0)' },
+                },
+                fadeInRight: {
+                    '0%': { opacity: '0', transform: 'translateX(20px)' },
+                    '100%': { opacity: '1', transform: 'translateX(0)' },
+                },
                 fadeIn: {
                     '0%': { opacity: '0' },
                     '100%': { opacity: '1' },
@@ -36,6 +44,9 @@ module.exports = {
             animation: {
                 'fade-in-up': 'fadeInUp 0.8s ease-out forwards',
                 'fade-in': 'fadeIn 0.8s ease-out forwards',
+                'in-left': 'fadeInLeft 0.8s ease-out forwards',
+                'in-right': 'fadeInRight 0.8s ease-out forwards',
+                'in-up': 'fadeInUp 0.8s ease-out forwards',
             }
         },
     },
