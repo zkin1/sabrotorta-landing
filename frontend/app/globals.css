@@ -27,6 +27,8 @@
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   main {
@@ -63,7 +65,7 @@ h6 {
     contain: layout style paint;
   }
 
-  /* Large pink orb - top right */
+  /* Large pink orb - top right - OPTIMIZED */
   main>section:nth-child(1)::before {
     content: '';
     position: absolute;
@@ -71,16 +73,14 @@ h6 {
     right: -8%;
     width: 800px;
     height: 800px;
-    background: radial-gradient(circle, rgba(233, 30, 99, 0.14), rgba(233, 30, 99, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(233, 30, 99, 0.08), rgba(233, 30, 99, 0.04) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(80px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 20s ease-in-out infinite;
-    will-change: transform;
   }
 
-  /* Medium orange orb - bottom left */
+  /* Medium orange orb - bottom left - OPTIMIZED */
   main>section:nth-child(1)::after {
     content: '';
     position: absolute;
@@ -88,12 +88,11 @@ h6 {
     left: -5%;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(255, 152, 0, 0.12), rgba(255, 152, 0, 0.06) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 152, 0, 0.06), rgba(255, 152, 0, 0.03) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(70px);
+    filter: blur(20px);
     pointer-events: none;
     z-index: 0;
-    animation: float 18s ease-in-out infinite reverse;
   }
 
   /* Hide orange orb on desktop */
@@ -118,12 +117,11 @@ h6 {
     left: -12%;
     width: 850px;
     height: 850px;
-    background: radial-gradient(circle, rgba(41, 182, 246, 0.15), rgba(41, 182, 246, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(41, 182, 246, 0.10), rgba(41, 182, 246, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(85px);
+    filter: blur(30px);
     pointer-events: none;
     z-index: 0;
-    animation: float 22s ease-in-out infinite;
   }
 
   /* Medium purple orb - bottom right */
@@ -134,12 +132,11 @@ h6 {
     right: -6%;
     width: 650px;
     height: 650px;
-    background: radial-gradient(circle, rgba(156, 39, 176, 0.13), rgba(156, 39, 176, 0.07) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(156, 39, 176, 0.09), rgba(156, 39, 176, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(75px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 19s ease-in-out infinite reverse;
   }
 
   /* Services Section - Vibrant energetic atmosphere with orange & pink orbs */
@@ -157,12 +154,11 @@ h6 {
     right: 5%;
     width: 900px;
     height: 900px;
-    background: radial-gradient(circle, rgba(255, 152, 0, 0.16), rgba(255, 152, 0, 0.09) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 152, 0, 0.10), rgba(255, 152, 0, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(90px);
+    filter: blur(30px);
     pointer-events: none;
     z-index: 0;
-    animation: float 21s ease-in-out infinite;
   }
 
   /* Medium pink orb - bottom left */
@@ -173,12 +169,11 @@ h6 {
     left: 3%;
     width: 700px;
     height: 700px;
-    background: radial-gradient(circle, rgba(233, 30, 99, 0.13), rgba(233, 30, 99, 0.07) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(233, 30, 99, 0.09), rgba(233, 30, 99, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(78px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 17s ease-in-out infinite reverse;
   }
 
   /* Contact Section - Elegant sophisticated atmosphere with purple & blue orbs */
@@ -196,12 +191,11 @@ h6 {
     left: -18%;
     width: 950px;
     height: 950px;
-    background: radial-gradient(circle, rgba(156, 39, 176, 0.16), rgba(156, 39, 176, 0.09) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(156, 39, 176, 0.10), rgba(156, 39, 176, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(95px);
+    filter: blur(30px);
     pointer-events: none;
     z-index: 0;
-    animation: float 23s ease-in-out infinite;
   }
 
   /* Medium blue orb - bottom right */
@@ -212,12 +206,11 @@ h6 {
     right: -10%;
     width: 750px;
     height: 750px;
-    background: radial-gradient(circle, rgba(41, 182, 246, 0.14), rgba(41, 182, 246, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(41, 182, 246, 0.09), rgba(41, 182, 246, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(82px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 20s ease-in-out infinite reverse;
   }
 
   /* Gallery Section - Artistic creative atmosphere with pink & orange orbs */
@@ -235,12 +228,11 @@ h6 {
     left: 8%;
     width: 880px;
     height: 880px;
-    background: radial-gradient(circle, rgba(233, 30, 99, 0.15), rgba(233, 30, 99, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(233, 30, 99, 0.10), rgba(233, 30, 99, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(88px);
+    filter: blur(30px);
     pointer-events: none;
     z-index: 0;
-    animation: float 24s ease-in-out infinite;
   }
 
   /* Medium orange orb - bottom right */
@@ -251,12 +243,11 @@ h6 {
     right: 6%;
     width: 720px;
     height: 720px;
-    background: radial-gradient(circle, rgba(255, 152, 0, 0.14), rgba(255, 152, 0, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(255, 152, 0, 0.09), rgba(255, 152, 0, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(80px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 18s ease-in-out infinite reverse;
   }
 
   /* Clients Section - Trustworthy professional atmosphere with blue & purple orbs */
@@ -274,12 +265,11 @@ h6 {
     right: -8%;
     width: 820px;
     height: 820px;
-    background: radial-gradient(circle, rgba(41, 182, 246, 0.16), rgba(41, 182, 246, 0.09) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(41, 182, 246, 0.10), rgba(41, 182, 246, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(86px);
+    filter: blur(30px);
     pointer-events: none;
     z-index: 0;
-    animation: float 22s ease-in-out infinite;
   }
 
   /* Medium purple orb - bottom left */
@@ -290,12 +280,11 @@ h6 {
     left: -10%;
     width: 680px;
     height: 680px;
-    background: radial-gradient(circle, rgba(156, 39, 176, 0.14), rgba(156, 39, 176, 0.08) 40%, transparent 70%);
+    background: radial-gradient(circle, rgba(156, 39, 176, 0.09), rgba(156, 39, 176, 0.05) 40%, transparent 70%);
     border-radius: 50%;
-    filter: blur(76px);
+    filter: blur(25px);
     pointer-events: none;
     z-index: 0;
-    animation: float 19s ease-in-out infinite reverse;
   }
 
   /* Ensure content is above the background decorations */
@@ -309,11 +298,9 @@ h6 {
     transition: background 0.8s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Smooth professional gradient transitions between sections */
-
-  /* Hero to About transition - Pink/Orange to Blue/Purple */
+  /* Simplified gradient transitions for better performance */
   main>section:nth-child(1) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   main>section:nth-child(1)::after {
@@ -322,21 +309,14 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom,
-        rgba(255, 249, 240, 0) 0%,
-        rgba(254, 251, 246, 0.15) 20%,
-        rgba(252, 252, 250, 0.35) 40%,
-        rgba(251, 252, 253, 0.60) 60%,
-        rgba(250, 252, 255, 0.85) 80%,
-        rgba(250, 252, 255, 1) 100%);
+    height: 150px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(250, 252, 255, 1) 100%);
     pointer-events: none;
     z-index: 1;
   }
 
-  /* About to Services transition - Blue/Purple to Orange/Pink */
   main>section:nth-child(2) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   main>section:nth-child(2)::after {
@@ -345,21 +325,14 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom,
-        rgba(250, 252, 255, 0) 0%,
-        rgba(251, 252, 253, 0.15) 20%,
-        rgba(253, 252, 251, 0.35) 40%,
-        rgba(254, 252, 250, 0.60) 60%,
-        rgba(255, 251, 248, 0.85) 80%,
-        rgba(255, 251, 248, 1) 100%);
+    height: 150px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 251, 248, 1) 100%);
     pointer-events: none;
     z-index: 1;
   }
 
-  /* Services to Contact transition - Orange/Pink to Purple/Blue */
   main>section:nth-child(3) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   main>section:nth-child(3)::after {
@@ -368,21 +341,14 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom,
-        rgba(255, 251, 248, 0) 0%,
-        rgba(253, 250, 249, 0.15) 20%,
-        rgba(252, 249, 250, 0.35) 40%,
-        rgba(250, 248, 251, 0.60) 60%,
-        rgba(249, 247, 252, 0.85) 80%,
-        rgba(249, 247, 252, 1) 100%);
+    height: 150px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(249, 247, 252, 1) 100%);
     pointer-events: none;
     z-index: 1;
   }
 
-  /* Contact to Gallery transition - Purple/Blue to Pink/Orange */
   main>section:nth-child(4) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   main>section:nth-child(4)::after {
@@ -391,21 +357,14 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom,
-        rgba(249, 247, 252, 0) 0%,
-        rgba(251, 248, 251, 0.15) 20%,
-        rgba(253, 248, 250, 0.35) 40%,
-        rgba(254, 248, 250, 0.60) 60%,
-        rgba(255, 248, 250, 0.85) 80%,
-        rgba(255, 248, 250, 1) 100%);
+    height: 150px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(255, 248, 250, 1) 100%);
     pointer-events: none;
     z-index: 1;
   }
 
-  /* Gallery to Clients transition - Pink/Orange to Blue/Purple */
   main>section:nth-child(5) {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
   }
 
   main>section:nth-child(5)::after {
@@ -414,32 +373,18 @@ h6 {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom,
-        rgba(255, 248, 250, 0) 0%,
-        rgba(252, 249, 251, 0.15) 20%,
-        rgba(250, 250, 253, 0.35) 40%,
-        rgba(248, 251, 254, 0.60) 60%,
-        rgba(247, 251, 255, 0.85) 80%,
-        rgba(247, 251, 255, 1) 100%);
+    height: 150px;
+    background: linear-gradient(to bottom, transparent 0%, rgba(247, 251, 255, 1) 100%);
     pointer-events: none;
     z-index: 1;
   }
 
-  /* Subtle floating animation for orbs - GPU accelerated */
+  /* Floating animation disabled for performance */
   @keyframes float {
 
     0%,
     100% {
-      transform: translate3d(0, 0, 0) scale(1);
-    }
-
-    33% {
-      transform: translate3d(30px, -30px, 0) scale(1.05);
-    }
-
-    66% {
-      transform: translate3d(-20px, 20px, 0) scale(0.95);
+      transform: translate3d(0, 0, 0);
     }
   }
 

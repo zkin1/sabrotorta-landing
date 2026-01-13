@@ -46,30 +46,34 @@
 }
 
 .animate-in-up {
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-  animation: .6s ease-out forwards fadeInUp;
+  animation: .5s ease-out forwards fadeInUp;
 }
 
 .animate-in {
-  will-change: opacity;
-  animation: .6s ease-out forwards fadeIn;
+  animation: .5s ease-out forwards fadeIn;
 }
 
 .animate-in-left {
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-  animation: .6s ease-out forwards slideInLeft;
+  animation: .5s ease-out forwards slideInLeft;
 }
 
 .animate-in-right {
-  will-change: transform, opacity;
-  backface-visibility: hidden;
-  animation: .6s ease-out forwards slideInRight;
+  animation: .5s ease-out forwards slideInRight;
 }
 
 .will-animate {
   opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-in-up, .animate-in, .animate-in-left, .animate-in-right {
+    opacity: 1;
+    animation: none;
+  }
+
+  .will-animate {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=app_animations_css_bad6b30c._.single.css.map*/

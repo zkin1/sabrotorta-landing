@@ -31,11 +31,11 @@ export default function Hero() {
           fetchPriority="high"
           quality={100}
           sizes="(min-width: 769px) 100vw, 0vw"
-          className="hidden md:block object-cover object-center scale-105"
+          className="hidden md:block object-cover object-center"
         />
 
         {/* Optimized gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-transparent"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-4 pt-0 md:py-20">

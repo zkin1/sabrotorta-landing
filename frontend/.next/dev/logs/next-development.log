@@ -16,3 +16,1053 @@ Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allow
 [00:18:36.025] Server  LOG      ✓ Compiled in 94ms
 [00:18:37.279] Server  LOG      ✓ Compiled in 117ms
 [00:18:41.694] Server  LOG      ✓ Compiled in 134ms
+[00:23:38.134] Server  LOG      ✓ Compiled in 424ms
+[00:23:58.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:20.299] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.301] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.306] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.308] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.310] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.312] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.314] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.316] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.319] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.320] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.321] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.323] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.324] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.325] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.328] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.330] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.332] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.334] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.335] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.338] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.340] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.341] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.342] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.344] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.346] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.347] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.348] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.349] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.351] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.352] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:20.355] Server  LOG      ✓ Compiled in 219ms
+[00:24:20.773] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:20.773] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:22.418] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:22.553] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:22.779] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:23.352] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:23.352] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:23.963] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.968] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.973] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.975] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.976] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.981] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.984] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.985] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.986] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.987] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.989] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:23.993] Server  ERROR    ⨯ Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:23.999] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\shared\lib\turbopack\utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.001] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\turbopack-utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.006] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.007] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.008] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\dev-bundler-service.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.009] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.012] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-matcher-managers\dev-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.013] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-matcher-managers\default-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.013] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.014] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.015] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.015] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.016] Server  ERROR   ModuleBuildError: ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:24.022] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.022] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.055] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.056] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.057] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.057] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.058] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.058] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.059] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.060] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.061] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.063] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.064] Server  ERROR    ⨯ Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:24.066] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.067] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.067] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.068] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.069] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.069] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.070] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.070] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.071] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.072] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:24.073] Server  ERROR   Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:24.218] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.218] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.218] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.782] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.782] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:24.782] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:24:33.934] Server  ERROR    ⨯ ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:33.959] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.960] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.961] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.962] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.963] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.964] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.964] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.965] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.965] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.966] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.967] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.968] Server  ERROR    ⨯ Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:33.970] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\shared\lib\turbopack\utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.970] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\turbopack-utils.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.970] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.971] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.971] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\dev-bundler-service.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.972] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.972] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-matcher-managers\dev-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.973] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-matcher-managers\default-route-matcher-manager.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.974] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.974] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.975] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.975] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.976] Server  ERROR   ModuleBuildError: ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:24:33.995] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.998] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:33.999] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.000] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.002] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.003] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.004] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.005] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.005] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.006] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.008] Server  ERROR    ⨯ Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:34.010] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\require-hook.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.011] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.011] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.012] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\pages-handler.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.012] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\route-module.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.012] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.013] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.013] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.013] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.014] Server  ERROR   C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:34.015] Server  ERROR   Error: Cannot find module 'critters'
+Require stack:
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\post-process.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\render.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\module.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\route-modules\pages\builtin\_error.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\load-default-error-components.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\dev\next-dev-server.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\next.js
+- C:\Users\zkn\Downloads\sabr\sabrotortas-landing\frontend\node_modules\next\dist\server\lib\start-server.js
+[00:24:34.775] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:06.779] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:06.783] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:06.784] Browser ERROR   ./app/page.js:8:55
+Module not found: Can't resolve '@/components/Navbar'
+   6 | import Galeria from '@/components/Galeria'
+   7 | import Footer from '@/components/Footer'
+>  8 | import WhatsAppButton from '@/components/WhatsAppButton'
+     |                                                       ^^
+>  9 | import Navbar from '@/components/Navbar'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | export default function Home() {
+  12 |   return (
+
+Import map: aliased to relative './components/Navbar' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[00:26:25.119] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:25.998] Server  LOG      ✓ Compiled in 1140ms
+[00:26:44.544] Server  LOG      ✓ Compiled in 143ms
+[00:26:58.379] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:09.639] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:36.380] Server  LOG      ✓ Compiled in 134ms
+[00:27:38.372] Server  LOG      ✓ Compiled in 129ms
+[00:27:54.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:31.239] Server  LOG      ✓ Compiled in 301ms
+[00:30:54.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:51.921] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:55.959] Server  LOG      ✓ Compiled in 24ms
+[00:31:58.196] Server  LOG      ✓ Compiled in 18ms
+[00:32:55.820] Server  LOG      ✓ Compiled in 270ms
+[00:33:30.384] Server  LOG      ✓ Compiled in 178ms
+[00:33:32.769] Server  LOG      ✓ Compiled in 437ms
+[00:37:01.613] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:16.299] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:38:11.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
