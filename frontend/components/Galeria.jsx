@@ -35,11 +35,13 @@ export default function Galeria() {
         setShowModal(false)
         setSelectedImage(null)
         document.body.style.overflow = 'auto'
+        document.body.classList.remove('lightbox-open')
     }, [])
 
     const openLightbox = useCallback((index) => {
         setLightboxIndex(index)
         setSelectedImage(allImages[index])
+        document.body.classList.add('lightbox-open')
     }, [allImages])
 
     const nextImage = useCallback(() => {

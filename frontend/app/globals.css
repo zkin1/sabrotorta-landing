@@ -35,6 +35,13 @@
     position: relative;
     z-index: 1;
   }
+
+  /* Hide navbar when lightbox is open */
+  body.lightbox-open nav {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease-out;
+  }
 }
 
 h1,
