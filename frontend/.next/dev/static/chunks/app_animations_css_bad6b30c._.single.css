@@ -2,12 +2,12 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translate3d(0, 30px, 0);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
@@ -24,40 +24,47 @@
 @keyframes slideInLeft {
   from {
     opacity: 0;
-    transform: translateX(-30px);
+    transform: translate3d(-30px, 0, 0);
   }
 
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
 @keyframes slideInRight {
   from {
     opacity: 0;
-    transform: translateX(30px);
+    transform: translate3d(30px, 0, 0);
   }
 
   to {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate3d(0, 0, 0);
   }
 }
 
 .animate-in-up {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
   animation: .6s ease-out forwards fadeInUp;
 }
 
 .animate-in {
+  will-change: opacity;
   animation: .6s ease-out forwards fadeIn;
 }
 
 .animate-in-left {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
   animation: .6s ease-out forwards slideInLeft;
 }
 
 .animate-in-right {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
   animation: .6s ease-out forwards slideInRight;
 }
 

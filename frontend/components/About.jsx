@@ -25,29 +25,13 @@ export default function About() {
                         </h2>
 
                         <div className="space-y-6 text-lg text-gray-600 leading-relaxed ">
-                            {/* Mobile Summary */}
-                            <div className="block md:hidden">
-                                <p className="mb-6">
-                                    Fundada en 2006, Sabrotortas ofrece <strong>catering y pastelería de excelencia</strong>. Con Resolución Sanitaria y 18 años de experiencia, hemos trabajado con grandes marcas como Paris y La Polar, garantizando calidad y confianza.
-                                </p>
-                                <a
-                                    href="#contacto"
-                                    className="inline-flex w-full items-center justify-center bg-brand-pink text-white px-6 py-3 rounded-xl font-bold hover:bg-pink-600 transition-colors shadow-md"
-                                >
-                                    Solicitar Cotización
-                                </a>
-                            </div>
-
-                            {/* Desktop Full Text */}
-                            <div className="hidden md:block space-y-6">
+                            {/* Concise Text */}
+                            <div className="space-y-6">
                                 <p>
-                                    Nos formamos como empresa a inicios del año 2006 teniendo como objetivo brindar siempre un servicio de primera calidad y una atención centrada en el cliente, brindando apoyo en cada una de las etapas del proceso.
+                                    Fundada en 2006, Sabrotortas se especializa en <strong> repostería de excelencia y catering profesional</strong>. Con Resolución Sanitaria N° 12343/2006 y más de 18 años de experiencia, garantizamos calidad y confianza en cada servicio.
                                 </p>
                                 <p>
-                                    Desde nuestros comienzos hemos ido creciendo paulatinamente en el desarrollo de nuestra actividad y cartera de clientes. Nuestra vitrina ha sido internet, donde hemos utilizado las herramientas disponibles para la promoción y venta de nuestros productos.
-                                </p>
-                                <p>
-                                    Hemos tenido el honor de participar en importantes eventos como ferias de la Municipalidad de Huechuraba, Exponovios, Expobebé, y eventos para grandes tiendas como Paris y La Polar.
+                                    Hemos tenido el honor de trabajar con grandes empresas como <strong>Paris y La Polar</strong>, además de participar en importantes eventos como ferias municipales, Exponovios y Expobebé.
                                 </p>
                             </div>
                         </div>
@@ -80,6 +64,8 @@ export default function About() {
                                 height={597}
                                 sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 600px"
                                 quality={85}
+                                loading="lazy"
+                                decoding="async"
                                 className="w-full h-auto object-cover"
                             />
                         </div>

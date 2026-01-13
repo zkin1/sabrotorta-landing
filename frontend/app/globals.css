@@ -60,6 +60,7 @@ h6 {
     position: relative;
     background: linear-gradient(180deg, #FEFEFE 0%, #FFFFFF 100%);
     overflow: hidden;
+    contain: layout style paint;
   }
 
   /* Large pink orb - top right */
@@ -76,6 +77,7 @@ h6 {
     pointer-events: none;
     z-index: 0;
     animation: float 20s ease-in-out infinite;
+    will-change: transform;
   }
 
   /* Medium orange orb - bottom left */
@@ -92,6 +94,13 @@ h6 {
     pointer-events: none;
     z-index: 0;
     animation: float 18s ease-in-out infinite reverse;
+  }
+
+  /* Hide orange orb on desktop */
+  @media (min-width: 769px) {
+    main>section:nth-child(1)::after {
+      display: none;
+    }
   }
 
   /* About Section - Cool professional atmosphere with blue & purple orbs */
@@ -417,20 +426,20 @@ h6 {
     z-index: 1;
   }
 
-  /* Subtle floating animation for orbs */
+  /* Subtle floating animation for orbs - GPU accelerated */
   @keyframes float {
 
     0%,
     100% {
-      transform: translate(0, 0) scale(1);
+      transform: translate3d(0, 0, 0) scale(1);
     }
 
     33% {
-      transform: translate(30px, -30px) scale(1.05);
+      transform: translate3d(30px, -30px, 0) scale(1.05);
     }
 
     66% {
-      transform: translate(-20px, 20px) scale(0.95);
+      transform: translate3d(-20px, 20px, 0) scale(0.95);
     }
   }
 
@@ -562,11 +571,11 @@ h6 {
 
       0%,
       100% {
-        transform: translate(0, 0) scale(1);
+        transform: translate3d(0, 0, 0) scale(1);
       }
 
       50% {
-        transform: translate(15px, -15px) scale(1.02);
+        transform: translate3d(15px, -15px, 0) scale(1.02);
       }
     }
   }

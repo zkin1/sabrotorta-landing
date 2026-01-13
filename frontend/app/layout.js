@@ -4,7 +4,7 @@ import './animations.css'
 import JsonLd from '@/components/JsonLd'
 
 const lato = Lato({
-  weight: ['100', '300', '400', '700', '900'],
+  weight: ['300', '400', '700'],
   subsets: ['latin'],
   variable: '--font-lato',
   display: 'swap',

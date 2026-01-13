@@ -8,7 +8,7 @@ export default function Hero() {
   const [ref, isVisible] = useInView()
 
   return (
-    <section ref={ref} className="relative min-h-[700px] sm:min-h-screen flex items-end sm:items-center overflow-hidden">
+    <section ref={ref} className="relative min-h-[700px] sm:min-h-screen flex items-end md:items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         {/* Mobile Image */}
@@ -17,68 +17,72 @@ export default function Hero() {
           alt="Sabrotortas Banner"
           fill
           priority
+          fetchPriority="high"
           quality={85}
           sizes="(max-width: 768px) 100vw, 0vw"
           className="object-cover object-center md:hidden"
         />
         {/* Desktop Image */}
         <Image
-          src="/assets/images/banner-pc.webp"
+          src="/assets/images/banner-pc-2.webp"
           alt="Sabrotortas Banner"
           fill
           priority
-          quality={85}
+          fetchPriority="high"
+          quality={100}
           sizes="(min-width: 769px) 100vw, 0vw"
-          className="hidden md:block object-cover object-center blur-[6px] scale-105"
+          className="hidden md:block object-cover object-center scale-105"
         />
-        <div className="absolute inset-0 bg-black/60"></div>
+
+        {/* Optimized gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-transparent"></div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-6 pt-16 sm:py-20 md:pt-60 ">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full pb-4 pt-0 md:py-20">
         {/* Content Container - Left Aligned */}
-        <div className="max-w-4xl">
+        <div className="max-w-3xl">
 
           {/* Kicker */}
-          <span className="text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up opacity-0">
+          <span className="text-brand-lightPink tracking-[0.2em] text-xs sm:text-sm md:text-base font-bold uppercase mb-3 sm:mb-4 block animate-fade-in-up opacity-0 drop-shadow-lg">
             El arte de celebrar
           </span>
 
           {/* Main Title */}
           <h1 className="mb-4 sm:mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
-            <span className="font-script text-7xl sm:text-7xl md:text-8xl lg:text-9xl bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent block mb-1 sm:mb-2 leading-tight">
+            <span className="font-script text-7xl sm:text-8xl md:text-9xl bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent block mb-2 leading-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
               Sabrotortas
             </span>
-            <span className="font-sans text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white block leading-tight">
+            <span className="font-sans text-2xl sm:text-3xl md:text-4xl font-light text-white block leading-tight drop-shadow-lg">
+              Repostería de Excelencia & Catering
             </span>
           </h1>
 
           {/* Description */}
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-4 sm:mb-8 max-w-xl sm:max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0" style={{ animationDelay: '0.2s' }}>
-            Donde cada creación es un testimonio de <span className="text-brand-lightPink font-medium">pasión, arte y atención impecable al detalle</span>. Catering y repostería para eventos inolvidables.
+          <p className="text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0 drop-shadow-lg" style={{ animationDelay: '0.2s' }}>
+            Donde cada creación es un testimonio de <span className="text-brand-lightPink font-medium">pasión, arte y atención impecable al detalle</span>. Transformamos tus eventos en experiencias inolvidables.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 opacity-0" style={{ animationDelay: '0.3s' }}>
             <a
               href="#contacto"
-              className="bg-brand-pink text-white px-6 py-3 sm:px-8 sm:py-4 rounded-sm font-bold text-sm sm:text-base md:text-lg tracking-wide hover:bg-pink-600 transition-colors duration-300 flex items-center justify-center gap-2 uppercase w-full sm:w-auto shadow-lg"
+              className="group bg-gradient-to-r from-brand-pink to-pink-500 text-white px-8 py-4 rounded-full font-bold text-sm sm:text-base tracking-wide hover:shadow-2xl hover:shadow-brand-pink/40 transition-all duration-300 flex items-center justify-center gap-2 uppercase w-full sm:w-auto transform hover:scale-105"
             >
               Solicitar Cotización
-              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5" />
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
               href="#servicios"
-              className="bg-transparent text-white border border-white/40 px-6 py-3.5 sm:px-8 sm:py-4 rounded-sm font-bold text-sm sm:text-base md:text-lg tracking-wide hover:bg-white/10 transition-colors duration-300 flex items-center justify-center uppercase w-full sm:w-auto text-center backdrop-blur-sm"
+              className="bg-white/5 text-white border border-white/20 px-8 py-4 rounded-full font-medium text-sm sm:text-base tracking-wide hover:bg-white/15 hover:border-white/40 transition-all duration-300 flex items-center justify-center uppercase w-full sm:w-auto backdrop-blur-sm"
             >
               Explorar Servicios
             </a>
             <a
               href="#galeria"
-              className="bg-transparent text-white border border-white/40 px-6 py-3 sm:px-8 sm:py-4 rounded-sm font-bold text-sm sm:text-base md:text-lg tracking-wide hover:bg-white/10 transition-colors duration-300 flex items-center justify-center uppercase w-full sm:w-auto text-center backdrop-blur-sm"
+              className="bg-white/5 text-white border border-white/20 px-8 py-4 rounded-full font-medium text-sm sm:text-base tracking-wide hover:bg-white/15 hover:border-white/40 transition-all duration-300 flex items-center justify-center uppercase w-full sm:w-auto backdrop-blur-sm"
             >
               Ver Galería
             </a>
-
           </div>
 
         </div>

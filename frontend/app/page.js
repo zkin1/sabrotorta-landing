@@ -6,10 +6,12 @@ import Contacto from '@/components/Contacto'
 import Galeria from '@/components/Galeria'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import Navbar from '@/components/Navbar'
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <main>
         <Hero />
         <About />
