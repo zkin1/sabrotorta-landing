@@ -68,7 +68,7 @@ export default function Servicios() {
             {/* Content Overlay */}
             <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-8 text-white">
               {/* Small Label */}
-              <p className="text-xs uppercase tracking-[0.4em] mb-3 text-white/80">
+              <p className="text-xs uppercase tracking-[0.4em] mb-3 text-white/95">
                 SERVICIO
               </p>
 
@@ -83,7 +83,7 @@ export default function Servicios() {
               </h3>
 
               {/* Description */}
-              <p className="text-sm sm:text-base leading-relaxed mb-6 text-white/90">
+              <p className="text-sm sm:text-base leading-relaxed mb-6 text-white">
                 {servicio.description}
               </p>
 

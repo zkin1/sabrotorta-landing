@@ -229,7 +229,7 @@ export default function Contacto() {
                     <Phone className="w-8 h-8 text-white" />
                   </div>
                   <div>
-                    <p className="font-bold text-lg mb-2 text-white/90">Teléfono / WhatsApp</p>
+                    <p className="font-bold text-lg mb-2 text-white">Teléfono / WhatsApp</p>
                     <a href="tel:+56977794373" className="text-xl font-bold hover:underline">
                       +569 7779 4373
                     </a>
@@ -245,7 +245,7 @@ export default function Contacto() {
                     <a href="mailto:ventas@sabrotortas.cl" className="text-lg sm:text-xl md:text-2xl font-bold hover:underline break-words md:break-normal">
                       ventas@sabrotortas.cl
                     </a>
-                    <p className="text-white/80 text-sm mt-1">Respuesta en 24hrs</p>
+                    <p className="text-white/95 text-sm mt-1">Respuesta en 24hrs</p>
                   </div>
                 </div>
 
@@ -256,14 +256,14 @@ export default function Contacto() {
                   <div>
                     <p className="font-bold text-lg mb-2 text-white/90">Ubicación</p>
                     <p className="text-xl font-bold">Santiago, Chile</p>
-                    <p className="text-white/80 text-sm mt-1">Cobertura en toda la RM</p>
+                    <p className="text-white/95 text-sm mt-1">Cobertura en toda la RM</p>
                   </div>
                 </div>
               </div>
 
               {/* Social Media */}
               <div className="mt-10 pt-10 border-t border-white/30">
-                <p className="font-bold text-lg mb-6 text-white/90">Síguenos en Redes Sociales</p>
+                <p className="font-bold text-lg mb-6 text-white">Síguenos en Redes Sociales</p>
                 <div className="flex gap-4">
                   <a
                     href="https://instagram.com/_u/sabrotortas.cl/"

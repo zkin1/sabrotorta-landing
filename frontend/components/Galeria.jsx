@@ -203,7 +203,7 @@ export default function Galeria() {
                                     {lightboxIndex + 1} / {allImages.length}
                                 </span>
                             </div>
-                            <span className="text-white/70 text-xs md:text-sm hidden sm:block">
+                            <span className="text-white/95 text-xs md:text-sm hidden sm:block">
                                 Creación {lightboxIndex + 1}
                             </span>
                         </div>
