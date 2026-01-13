@@ -46,7 +46,7 @@ export default function Hero() {
           </span>
 
           {/* Main Title */}
-          <h1 className="mb-4 sm:mb-6 animate-fade-in-up opacity-0" style={{ animationDelay: '0.1s' }}>
+          <h1 className="mb-4 sm:mb-6 animate-fade-in-up opacity-0 delay-100">
             <span className="font-script text-7xl sm:text-8xl md:text-9xl bg-gradient-to-r from-brand-pink via-pink-400 to-brand-pink bg-clip-text text-transparent block mb-2 leading-tight drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">
               Sabrotortas
             </span>
@@ -56,12 +56,12 @@ export default function Hero() {
           </h1>
 
           {/* Description */}
-          <p className="text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0 drop-shadow-lg" style={{ animationDelay: '0.2s' }}>
+          <p className="text-base sm:text-lg md:text-xl text-white mb-6 sm:mb-8 max-w-2xl font-light leading-relaxed animate-fade-in-up opacity-0 drop-shadow-lg delay-200">
             Donde cada creación es un testimonio de <span className="text-brand-lightPink font-medium">pasión, arte y atención impecable al detalle</span>. Transformamos tus eventos en experiencias inolvidables.
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 opacity-0" style={{ animationDelay: '0.3s' }}>
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 animate-fade-in-up w-full sm:w-auto max-w-sm sm:max-w-none mx-auto sm:mx-0 opacity-0 delay-300">
             <a
               href="#contacto"
               className="group bg-gradient-to-r from-brand-pink to-pink-500 text-white px-8 py-4 rounded-full font-bold text-sm sm:text-base tracking-wide hover:shadow-2xl hover:shadow-brand-pink/40 transition-all duration-300 flex items-center justify-center gap-2 uppercase w-full sm:w-auto transform hover:scale-105"

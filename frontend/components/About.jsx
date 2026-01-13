@@ -70,12 +70,8 @@ export default function About() {
                             />
                         </div>
 
-                        {/* Decorative Elements */}
-                        <div className="absolute -top-10 -right-10 w-64 h-64 bg-gradient-to-br from-brand-pink/30 to-brand-lightPink/30 rounded-full opacity-50 blur-3xl -z-10"></div>
-                        <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-gradient-to-br from-brand-blue/30 to-purple-200 rounded-full opacity-50 blur-3xl -z-10"></div>
-
                         {/* Experience Card */}
-                        <div className={`absolute -bottom-8 -left-4 sm:-bottom-10 sm:-left-8 bg-white p-3 sm:p-4 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-[160px] sm:max-w-[220px] will-animate ${isVisible ? 'animate-in-up' : 'opacity-0'}`} style={{ animationDelay: '0.3s' }}>
+                        <div className={`absolute -bottom-8 -left-4 sm:-bottom-10 sm:-left-8 bg-white p-3 sm:p-4 rounded-2xl shadow-xl z-20 border border-gray-100 max-w-[160px] sm:max-w-[220px] will-animate ${isVisible ? 'animate-in-up' : 'opacity-0'} delay-300`}>
                             <p className="text-xl sm:text-3xl font-bold text-brand-pink mb-1 font-script">10+ Años</p>
                             <p className="text-[10px] sm:text-sm text-gray-600 font-medium font-sans leading-tight">Entregando servicios de catering y repostería</p>
                         </div>

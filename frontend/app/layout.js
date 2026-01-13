@@ -1,6 +1,7 @@
 ﻿import { Lato, Dancing_Script } from 'next/font/google'
 import './globals.css'
 import './animations.css'
+import './performance.css'
 import JsonLd from '@/components/JsonLd'
 
 const lato = Lato({
@@ -9,6 +10,7 @@ const lato = Lato({
   variable: '--font-lato',
   display: 'swap',
   preload: true,
+  adjustFontFallback: true,
 })
 
 const dancingScript = Dancing_Script({
@@ -16,6 +18,7 @@ const dancingScript = Dancing_Script({
   variable: '--font-dancing',
   display: 'swap',
   preload: true,
+  adjustFontFallback: true,
 })
 
 export const metadata = {
@@ -83,7 +86,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="es" style={{ scrollBehavior: 'smooth' }} className={`${lato.variable} ${dancingScript.variable}`}>
+    <html lang="es" className={`${lato.variable} ${dancingScript.variable}`}>
       <body className="font-sans antialiased" suppressHydrationWarning={true}>
         <JsonLd />
         {children}

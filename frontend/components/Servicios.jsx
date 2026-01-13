@@ -48,8 +48,7 @@ export default function Servicios() {
         {servicios.map((servicio, index) => (
           <div
             key={servicio.id}
-            className={`group relative rounded-3xl overflow-hidden shadow-lg transition-all duration-500 will-animate ${isVisible ? 'animate-in-up' : ''}`}
-            style={{ animationDelay: `${0.15 * index}s` }}
+            className={`group relative rounded-3xl overflow-hidden shadow-lg transition-all duration-500 will-animate ${isVisible ? 'animate-in-up' : ''} delay-${index + 1}00`}
           >
             {/* Background Image */}
             <div className="relative h-[500px] sm:h-[550px] lg:h-[600px]">

@@ -1,7 +1,8 @@
+/* Optimized animations with GPU acceleration */
 @keyframes fadeInUp {
     from {
         opacity: 0;
-        transform: translate3d(0, 30px, 0);
+        transform: translate3d(0, 20px, 0);
     }
 
     to {
@@ -23,7 +24,7 @@
 @keyframes slideInLeft {
     from {
         opacity: 0;
-        transform: translate3d(-30px, 0, 0);
+        transform: translate3d(-20px, 0, 0);
     }
 
     to {
@@ -35,7 +36,7 @@
 @keyframes slideInRight {
     from {
         opacity: 0;
-        transform: translate3d(30px, 0, 0);
+        transform: translate3d(20px, 0, 0);
     }
 
     to {
@@ -44,7 +45,7 @@
     }
 }
 
-/* Optimized animations - removed will-change for better Brave performance */
+/* Animation utility classes */
 .animate-in-up {
     animation: fadeInUp 0.5s ease-out forwards;
 }

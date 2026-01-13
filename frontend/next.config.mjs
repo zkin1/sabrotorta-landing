@@ -8,15 +8,23 @@ const nextConfig = {
 
     // Optimización de imágenes
     images: {
-        formats: ['image/webp'],
+        formats: ['image/avif', 'image/webp'],
         deviceSizes: [640, 750, 828, 1080, 1200, 1920],
         imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
         minimumCacheTTL: 31536000,
-        qualities: [75, 85, 100],
+        dangerouslyAllowSVG: false,
+        contentDispositionType: 'attachment',
+        contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     },
 
     // Compresión
     compress: true,
+
+    // Experimental features
+    experimental: {
+        optimizeCss: true,
+        optimizePackageImports: ['lucide-react'],
+    },
 
     // Headers de caché
     async headers() {
@@ -39,12 +47,16 @@ const nextConfig = {
                     },
                 ],
             },
+            {
+                source: '/:path*.avif',
+                headers: [
+                    {
+                        key: 'Cache-Control',
+                        value: 'public, max-age=31536000, immutable',
+                    },
+                ],
+            },
         ]
-    },
-
-    // Experimental features
-    experimental: {
-        optimizeCss: true,
     },
 };
 

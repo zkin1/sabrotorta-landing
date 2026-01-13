@@ -3,6 +3,7 @@
 import { useInView } from '@/hooks/useInView'
 import { useState, useMemo, useCallback } from 'react'
 import { X, ChevronLeft, ChevronRight, Eye } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Galeria() {
     const [ref, isVisible] = useInView()
@@ -96,19 +97,20 @@ export default function Galeria() {
                         return (
                             <div
                                 key={item.id}
-                                className={`group relative rounded-2xl overflow-hidden cursor-pointer will-animate ${spanClass} ${isVisible ? 'animate-in-up' : ''}`}
-                                style={{ animationDelay: `${0.1 * index}s` }}
+                                className={`group relative rounded-2xl overflow-hidden cursor-pointer will-animate ${spanClass} ${isVisible ? 'animate-in-up' : ''} delay-${index}00`}
                                 onClick={() => {
                                     openModal()
                                     openLightbox(item.id - 1)
                                 }}
                             >
-                                <img
+                                <Image
                                     src={item.image}
                                     alt={item.alt}
+                                    fill
+                                    sizes="(max-width: 768px) 50vw, 33vw"
+                                    quality={75}
                                     loading="lazy"
-                                    decoding="async"
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                    className="object-cover transition-transform duration-700 hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                     <div className="bg-white/90 rounded-full shadow-lg p-3">
@@ -121,7 +123,7 @@ export default function Galeria() {
                 </div>
 
                 {/* View More Button */}
-                <div className={`text-center will-animate ${isVisible ? 'animate-in-up' : ''}`} style={{ animationDelay: '0.6s' }}>
+                <div className={`text-center will-animate ${isVisible ? 'animate-in-up' : ''} delay-600`}>
                     <button
                         onClick={openModal}
                         className="group relative inline-flex items-center gap-2 md:gap-3 bg-gradient-to-r from-pink-500 to-fuchsia-500 text-white px-8 md:px-10 py-4 md:py-5 rounded-full font-bold text-base md:text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
@@ -166,12 +168,14 @@ export default function Galeria() {
                                             className="group relative rounded-xl md:rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square touch-manipulation border border-gray-100"
                                             onClick={() => openLightbox(index)}
                                         >
-                                            <img
+                                            <Image
                                                 src={item.image}
                                                 alt={item.alt}
+                                                fill
+                                                sizes="(max-width: 768px) 50vw, 33vw"
+                                                quality={75}
                                                 loading="lazy"
-                                                decoding="async"
-                                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                                className="object-cover group-hover:scale-105 transition-transform duration-500"
                                             />
                                             <div className="absolute inset-0 bg-gradient-to-t from-pink-500/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                                                 <Eye className="w-7 h-7 md:w-9 md:h-9 text-white transform scale-0 group-hover:scale-100 transition-transform duration-300" />
@@ -239,12 +243,14 @@ export default function Galeria() {
 
                         {/* Image - Strictly contained */}
                         <div className="relative w-full h-full flex items-center justify-center">
-                            <img
+                            <Image
                                 src={selectedImage.image}
                                 alt={selectedImage.alt}
                                 key={selectedImage.id}
-                                loading="eager"
-                                decoding="async"
+                                width={1200}
+                                height={800}
+                                quality={90}
+                                priority
                                 className="max-w-full max-h-full w-auto h-auto object-contain shadow-2xl transition-opacity duration-300"
                                 onClick={(e) => e.stopPropagation()}
                             />
@@ -274,17 +280,19 @@ export default function Galeria() {
                                             e.stopPropagation()
                                             openLightbox(idx)
                                         }}
-                                        className={`flex-shrink-0 w-12 h-12 md:w-16 md:h-16 rounded-lg overflow-hidden border-2 transition-all ${idx === lightboxIndex
+                                        className={`flex-shrink-0 w-12 h-12 md:w-16 md:h-16 rounded-lg overflow-hidden border-2 transition-all relative ${idx === lightboxIndex
                                             ? 'border-pink-500 scale-110 shadow-lg'
                                             : 'border-white/20 hover:border-white/50 opacity-60 hover:opacity-100'
                                             }`}
                                     >
-                                        <img
+                                        <Image
                                             src={img.image}
                                             alt={img.alt}
+                                            fill
+                                            sizes="64px"
+                                            quality={60}
                                             loading="lazy"
-                                            decoding="async"
-                                            className="w-full h-full object-cover"
+                                            className="object-cover"
                                         />
                                     </button>
                                 ))}
