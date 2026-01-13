@@ -205,7 +205,7 @@ export default function Contacto() {
               <button
                 type="submit"
                 disabled={loading}
-                className="group w-full bg-gradient-to-r from-pink-500 via-pink-600 to-fuchsia-500 bg-size-200 bg-pos-0 hover:bg-pos-100 text-white py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                className="group w-full bg-gradient-to-r from-pink-500 via-pink-600 to-fuchsia-500 text-white py-5 rounded-2xl font-bold text-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? 'Enviando...' : 'Enviar Solicitud'}
                 {!loading && <Send className="w-6 h-6 group-hover:translate-x-2 transition-transform" />}
@@ -314,17 +314,6 @@ export default function Contacto() {
         </div>
       </div>
 
-      <style jsx>{`
-        .bg-size-200 {
-          background-size: 200% 200%;
-        }
-        .bg-pos-0 {
-          background-position: 0% 50%;
-        }
-        .bg-pos-100 {
-          background-position: 100% 50%;
-        }
-      `}</style>
     </section>
   )
 }
