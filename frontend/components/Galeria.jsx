@@ -1,8 +1,9 @@
 'use client'
 
 import { useInView } from '@/hooks/useInView'
-import { useState, useMemo, useCallback } from 'react'
-import { X, ChevronLeft, ChevronRight, Eye } from 'lucide-react'
+import { useState, useMemo, useCallback, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
+import { X, ChevronLeft, ChevronRight, Eye, ChevronDown } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Galeria() {
@@ -10,6 +11,8 @@ export default function Galeria() {
     const [showModal, setShowModal] = useState(false)
     const [selectedImage, setSelectedImage] = useState(null)
     const [lightboxIndex, setLightboxIndex] = useState(0)
+    const [showScrollHint, setShowScrollHint] = useState(true)
+    const galleryScrollRef = useRef(null)
 
     // Memoize gallery images to prevent recreation on every render
     const allImages = useMemo(() =>
@@ -29,6 +32,7 @@ export default function Galeria() {
 
     const openModal = useCallback(() => {
         setShowModal(true)
+        setShowScrollHint(true) // Reset scroll hint when modal opens
         document.body.style.overflow = 'hidden'
     }, [])
 
@@ -60,6 +64,13 @@ export default function Galeria() {
             return newIndex
         })
     }, [allImages])
+
+    // Handle scroll to hide hint
+    const handleScroll = useCallback(() => {
+        if (galleryScrollRef.current && galleryScrollRef.current.scrollTop > 50) {
+            setShowScrollHint(false)
+        }
+    }, [])
 
     return (
         <section id="galeria" ref={ref} className="py-16 md:py-24 bg-gradient-to-b from-white to-pink-50/30">
@@ -137,8 +148,8 @@ export default function Galeria() {
             </div>
 
             {/* Full Gallery Modal */}
-            {showModal && (
-                <div className="fixed inset-0 z-50 bg-black/80 overflow-y-auto animate-in fade-in duration-300" onClick={closeModal}>
+            {showModal && typeof document !== 'undefined' && createPortal(
+                <div className="fixed inset-0 z-[100] bg-black/80 overflow-y-auto animate-in fade-in duration-300" onClick={closeModal}>
                     <div className="min-h-screen p-3 md:p-6 lg:p-8 flex items-start justify-center">
                         {/* Modal Card Container */}
                         <div className="w-full max-w-7xl bg-white rounded-3xl shadow-2xl my-4 md:my-8 overflow-hidden" onClick={(e) => e.stopPropagation()}>
@@ -148,7 +159,6 @@ export default function Galeria() {
                                     <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-gray-800 mb-1">
                                         Galería Completa
                                     </h3>
-                                    <p className="text-gray-600 text-xs md:text-sm">{allImages.length} creaciones únicas</p>
                                 </div>
                                 <button
                                     onClick={closeModal}
@@ -160,39 +170,61 @@ export default function Galeria() {
                             </div>
 
                             {/* Gallery Grid - Grid Uniforme como en las fotos */}
-                            <div className="p-3 md:p-6 lg:p-8 bg-gradient-to-b from-white/50 to-pink-50/50 max-h-[70vh] md:max-h-[75vh] overflow-y-auto">
-                                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-                                    {allImages.map((item, index) => (
-                                        <div
-                                            key={item.id}
-                                            className="group relative rounded-xl md:rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square touch-manipulation border border-gray-100"
-                                            onClick={() => openLightbox(index)}
-                                        >
-                                            <Image
-                                                src={item.image}
-                                                alt={item.alt}
-                                                fill
-                                                sizes="(max-width: 768px) 50vw, 33vw"
-                                                quality={75}
-                                                loading="lazy"
-                                                className="object-cover group-hover:scale-105 transition-transform duration-500"
-                                            />
-                                            <div className="absolute inset-0 bg-gradient-to-t from-pink-500/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                                                <Eye className="w-7 h-7 md:w-9 md:h-9 text-white transform scale-0 group-hover:scale-100 transition-transform duration-300" />
+                            <div className="relative">
+                                <div
+                                    ref={galleryScrollRef}
+                                    onScroll={handleScroll}
+                                    className="p-3 md:p-6 lg:p-8 bg-gradient-to-b from-white/50 to-pink-50/50 max-h-[70vh] md:max-h-[75vh] overflow-y-auto gallery-scroll"
+                                >
+                                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+                                        {allImages.map((item, index) => (
+                                            <div
+                                                key={item.id}
+                                                className="group relative rounded-xl md:rounded-2xl overflow-hidden bg-white shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer aspect-square touch-manipulation border border-gray-100"
+                                                onClick={() => openLightbox(index)}
+                                            >
+                                                <Image
+                                                    src={item.image}
+                                                    alt={item.alt}
+                                                    fill
+                                                    sizes="(max-width: 768px) 50vw, 33vw"
+                                                    quality={75}
+                                                    loading="lazy"
+                                                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                                                />
+                                                <div className="absolute inset-0 bg-gradient-to-t from-pink-500/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                                    <Eye className="w-7 h-7 md:w-9 md:h-9 text-white transform scale-0 group-hover:scale-100 transition-transform duration-300" />
+                                                </div>
                                             </div>
-                                        </div>
-                                    ))}
+                                        ))}
+                                    </div>
+                                </div>
+
+                                {/* Gradient Fade-out Overlay */}
+                                <div
+                                    className={`absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white via-white/80 to-transparent pointer-events-none transition-opacity duration-500 ${showScrollHint ? 'opacity-100' : 'opacity-0'}`}
+                                />
+
+                                {/* Scroll Hint Indicator */}
+                                <div
+                                    className={`absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none transition-all duration-500 ${showScrollHint ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
+                                >
+                                    <p className="text-sm md:text-base font-semibold text-gray-700 bg-white/90 px-4 py-2 rounded-full shadow-lg backdrop-blur-sm">
+                                        Desliza para ver más
+                                    </p>
+                                    <ChevronDown className="w-6 h-6 text-pink-500 animate-bounce" />
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
 
             {/* Lightbox - Professional Full Screen Image Viewer */}
-            {selectedImage && (
+            {selectedImage && typeof document !== 'undefined' && createPortal(
                 <div
-                    className="fixed inset-0 z-[60] bg-black/95 flex flex-col animate-in fade-in duration-200"
+                    className="fixed inset-0 z-[110] bg-black/95 flex flex-col animate-in fade-in duration-200"
                     onClick={closeModal}
                 >
                     {/* Top Bar - Info and Close */}
@@ -319,8 +351,32 @@ export default function Galeria() {
                             -ms-overflow-style: none;
                             scrollbar-width: none;
                         }
+                        
+                        /* Custom scrollbar for gallery */
+                        .gallery-scroll::-webkit-scrollbar {
+                            width: 8px;
+                        }
+                        .gallery-scroll::-webkit-scrollbar-track {
+                            background: rgba(0, 0, 0, 0.05);
+                            border-radius: 10px;
+                        }
+                        .gallery-scroll::-webkit-scrollbar-thumb {
+                            background: linear-gradient(to bottom, #ec4899, #d946ef);
+                            border-radius: 10px;
+                            transition: background 0.3s;
+                        }
+                        .gallery-scroll::-webkit-scrollbar-thumb:hover {
+                            background: linear-gradient(to bottom, #db2777, #c026d3);
+                        }
+                        
+                        /* Firefox */
+                        .gallery-scroll {
+                            scrollbar-width: thin;
+                            scrollbar-color: #ec4899 rgba(0, 0, 0, 0.05);
+                        }
                     `}</style>
-                </div>
+                </div>,
+                document.body
             )}
         </section>
     )
