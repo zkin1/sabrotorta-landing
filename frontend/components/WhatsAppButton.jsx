@@ -1,9 +1,9 @@
 ﻿'use client'
 
+import { CONTACT_INFO } from '@/lib/config'
+
 export default function WhatsAppButton() {
-    const whatsappNumber = '56977794373'
-    const message = 'Hola! Me gustaría solicitar información sobre sus servicios.'
-    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = CONTACT_INFO.whatsappUrl
 
     return (
         <a

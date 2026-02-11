@@ -4,7 +4,7 @@
 import { Mail, Phone, MapPin, MessageCircle, Clock, Send, Instagram } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
 import { useState } from 'react'
-import { API_ENDPOINTS } from '@/lib/config'
+import { API_ENDPOINTS, CONTACT_INFO } from '@/lib/config'
 
 export default function Contacto() {
   const [ref, isVisible] = useInView()
@@ -58,7 +58,7 @@ export default function Contacto() {
   }
 
   return (
-    <section id="contacto" ref={ref} className="py-16 md:py-24 bg-gradient-to-b from-pink-50/30 to-white relative overflow-hidden">
+    <section id="contacto" ref={ref} className="section-contacto py-16 md:py-24 bg-gradient-to-b from-pink-50/30 to-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-16 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
@@ -81,7 +81,7 @@ export default function Contacto() {
             {/* WhatsApp Direct Button (Requested at Top) */}
             <div className="mb-8">
               <a
-                href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
+                href={CONTACT_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 mb-6"
@@ -192,10 +192,14 @@ export default function Contacto() {
               </div>
 
               {message && (
-                <div className={`p-5 rounded-2xl text-center font-semibold animate-in fade-in duration-300 ${message.includes('exitosamente')
-                  ? 'bg-green-100 text-green-800 border-2 border-green-300 success-message'
-                  : 'bg-red-100 text-red-800 border-2 border-red-300'
-                  }`}>
+                <div
+                  role="status"
+                  aria-live="polite"
+                  className={`p-5 rounded-2xl text-center font-semibold animate-in fade-in duration-300 ${message.includes('exitosamente')
+                    ? 'bg-green-100 text-green-800 border-2 border-green-300 success-message'
+                    : 'bg-red-100 text-red-800 border-2 border-red-300'
+                    }`}
+                >
                   {message.includes('exitosamente') && <span className="text-2xl mr-2">✅</span>}
                   {!message.includes('exitosamente') && <span className="text-2xl mr-2">⚠️</span>}
                   {message}
@@ -220,43 +224,43 @@ export default function Contacto() {
           {/* Contact Info (Order 2 on mobile) */}
           <div className={`space-y-6 order-2 lg:order-1 will-animate ${isVisible ? 'animate-in-left' : ''}`}>
             {/* Main Contact Card */}
-            <div className="bg-gradient-to-br from-pink-400 to-pink-500 p-8 rounded-2xl shadow-xl text-white">
+            <div className="bg-gradient-to-br from-pink-400 to-pink-500 p-5 sm:p-8 rounded-2xl shadow-xl text-white">
               <h3 className="text-2xl font-bold mb-6">Información</h3>
 
               <div className="space-y-6">
-                <div className="group flex items-start gap-6">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                    <Phone className="w-8 h-8 text-white" />
+                <div className="group flex items-start gap-4 sm:gap-6">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                    <Phone className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                   </div>
                   <div>
                     <p className="font-bold text-lg mb-2 text-white">Teléfono / WhatsApp</p>
-                    <a href="tel:+56977794373" className="text-xl font-bold hover:underline">
-                      +569 7779 4373
+                    <a href={`tel:${CONTACT_INFO.phone}`} className="text-xl font-bold hover:underline">
+                      {CONTACT_INFO.phoneFormatted}
                     </a>
                   </div>
                 </div>
 
-                <div className="group flex items-start gap-6">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                    <Mail className="w-8 h-8 text-white" />
+                <div className="group flex items-start gap-4 sm:gap-6">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                    <Mail className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                   </div>
                   <div>
                     <p className="font-bold text-lg mb-2 text-white/90">Email</p>
-                    <a href="mailto:ventas@sabrotortas.cl" className="text-lg sm:text-xl md:text-2xl font-bold hover:underline break-words md:break-normal">
-                      ventas@sabrotortas.cl
+                    <a href={`mailto:${CONTACT_INFO.email}`} className="text-lg sm:text-xl md:text-2xl font-bold hover:underline break-words md:break-normal">
+                      {CONTACT_INFO.email}
                     </a>
                     <p className="text-white/95 text-sm mt-1">Respuesta en 24hrs</p>
                   </div>
                 </div>
 
-                <div className="group flex items-start gap-6">
-                  <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
-                    <MapPin className="w-8 h-8 text-white" />
+                <div className="group flex items-start gap-4 sm:gap-6">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:rotate-12 transition-all duration-300">
+                    <MapPin className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
                   </div>
                   <div>
                     <p className="font-bold text-lg mb-2 text-white/90">Ubicación</p>
-                    <p className="text-xl font-bold">Santiago, Chile</p>
-                    <p className="text-white/95 text-sm mt-1">Cobertura en toda la RM</p>
+                    <p className="text-xl font-bold">{CONTACT_INFO.location.city}, {CONTACT_INFO.location.region}</p>
+                    <p className="text-white/95 text-sm mt-1">{CONTACT_INFO.location.coverage}</p>
                   </div>
                 </div>
               </div>
@@ -266,7 +270,7 @@ export default function Contacto() {
                 <p className="font-bold text-lg mb-6 text-white">Síguenos en Redes Sociales</p>
                 <div className="flex gap-4">
                   <a
-                    href="https://instagram.com/_u/sabrotortas.cl/"
+                    href={CONTACT_INFO.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Visitar Instagram de Sabrotortas"
@@ -275,7 +279,7 @@ export default function Contacto() {
                     <Instagram className="w-7 h-7 text-white group-hover/social:text-pink-500 transition-colors" />
                   </a>
                   <a
-                    href="https://wa.me/56977794373?text=Hola!%20Me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n%20sobre%20sus%20servicios."
+                    href={CONTACT_INFO.whatsappUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Contactar por WhatsApp"
@@ -298,11 +302,11 @@ export default function Contacto() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                   <span className="text-gray-700 font-semibold">Lunes a Viernes</span>
-                  <span className="text-pink-600 font-bold">9:00 - 19:00</span>
+                  <span className="text-pink-600 font-bold">{CONTACT_INFO.schedule.weekdays}</span>
                 </div>
                 <div className="flex justify-between items-center pb-4 border-b border-gray-200">
                   <span className="text-gray-700 font-semibold">Sábados</span>
-                  <span className="text-pink-600 font-bold">10:00 - 14:00</span>
+                  <span className="text-pink-600 font-bold">{CONTACT_INFO.schedule.saturday}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <span className="text-gray-700 font-semibold">WhatsApp</span>

@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // Optimización de compilación
-    swcMinify: true,
     compiler: {
         removeConsole: process.env.NODE_ENV === 'production',
     },

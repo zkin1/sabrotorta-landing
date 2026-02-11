@@ -14,14 +14,27 @@ export default function Galeria() {
     const [showScrollHint, setShowScrollHint] = useState(true)
     const galleryScrollRef = useRef(null)
 
-    // Memoize gallery images to prevent recreation on every render
-    const allImages = useMemo(() =>
-        Array.from({ length: 18 }, (_, i) => ({
-            id: i + 1,
-            image: `/images/galeria/gallery-${i + 1}.webp`,
-            alt: `Creación ${i + 1}`
-        })), []
-    )
+    // Memoize gallery images with SEO-optimized alt text
+    const allImages = useMemo(() => [
+        { id: 1, image: '/images/galeria/gallery-1.webp', alt: 'Torta decorada artesanal con diseño personalizado para celebración especial' },
+        { id: 2, image: '/images/galeria/gallery-2.webp', alt: 'Mesa de dulces y repostería fina para evento corporativo' },
+        { id: 3, image: '/images/galeria/gallery-3.webp', alt: 'Torta temática de cumpleaños con decoración en fondant' },
+        { id: 4, image: '/images/galeria/gallery-4.webp', alt: 'Servicio de catering profesional con variedad de bocadillos' },
+        { id: 5, image: '/images/galeria/gallery-5.webp', alt: 'Torta de bodas elegante con flores comestibles y detalles premium' },
+        { id: 6, image: '/images/galeria/gallery-6.webp', alt: 'Cupcakes decorados para evento empresarial' },
+        { id: 7, image: '/images/galeria/gallery-7.webp', alt: 'Montaje completo de catering para celebración privada' },
+        { id: 8, image: '/images/galeria/gallery-8.webp', alt: 'Torta personalizada con diseños creativos y colores vibrantes' },
+        { id: 9, image: '/images/galeria/gallery-9.webp', alt: 'Buffet de repostería artesanal para evento social' },
+        { id: 10, image: '/images/galeria/gallery-10.webp', alt: 'Torta infantil temática con personajes y decoración detallada' },
+        { id: 11, image: '/images/galeria/gallery-11.webp', alt: 'Coffee break corporativo con pastelería variada' },
+        { id: 12, image: '/images/galeria/gallery-12.webp', alt: 'Torta de celebración con glaseado profesional y acabados finos' },
+        { id: 13, image: '/images/galeria/gallery-13.webp', alt: 'Servicio de banquetería para matrimonio con decoración floral' },
+        { id: 14, image: '/images/galeria/gallery-14.webp', alt: 'Preparación de mesa dulce con tortas y postres variados' },
+        { id: 15, image: '/images/galeria/gallery-15.webp', alt: 'Torta de aniversario con diseño sofisticado y elegante' },
+        { id: 16, image: '/images/galeria/gallery-16.webp', alt: 'Montaje de evento con servicio de catering integral' },
+        { id: 17, image: '/images/galeria/gallery-17.webp', alt: 'Vitrina de tortas decoradas con estilos únicos artesanales' },
+        { id: 18, image: '/images/galeria/gallery-18.webp', alt: 'Certificados y reconocimientos de Sabrotortas desde 2006' },
+    ], [])
 
     // Imágenes destacadas para preview (8 imágenes para mejor balance)
     const previewImages = useMemo(() => {
@@ -72,8 +85,36 @@ export default function Galeria() {
         }
     }, [])
 
+    // Keyboard navigation for modal and lightbox
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (!showModal && !selectedImage) return
+
+            switch (e.key) {
+                case 'Escape':
+                    closeModal()
+                    break
+                case 'ArrowLeft':
+                    if (selectedImage) {
+                        e.preventDefault()
+                        prevImage()
+                    }
+                    break
+                case 'ArrowRight':
+                    if (selectedImage) {
+                        e.preventDefault()
+                        nextImage()
+                    }
+                    break
+            }
+        }
+
+        window.addEventListener('keydown', handleKeyDown)
+        return () => window.removeEventListener('keydown', handleKeyDown)
+    }, [showModal, selectedImage, closeModal, prevImage, nextImage])
+
     return (
-        <section id="galeria" ref={ref} className="py-16 md:py-24 bg-gradient-to-b from-white to-pink-50/30">
+        <section id="galeria" ref={ref} className="section-galeria py-16 md:py-24 bg-gradient-to-b from-white to-pink-50/30">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Header */}
                 <div className={`text-center mb-12 md:mb-16 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
@@ -108,7 +149,8 @@ export default function Galeria() {
                         return (
                             <div
                                 key={item.id}
-                                className={`group relative rounded-2xl overflow-hidden cursor-pointer will-animate ${spanClass} ${isVisible ? 'animate-in-up' : ''} delay-${index}00`}
+                                className={`group relative rounded-2xl overflow-hidden cursor-pointer will-animate ${spanClass} ${isVisible ? 'animate-in-up' : ''}`}
+                                style={{ animationDelay: `${0.1 * index}s` }}
                                 onClick={() => {
                                     openModal()
                                     openLightbox(item.id - 1)

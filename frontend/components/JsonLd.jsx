@@ -1,3 +1,5 @@
+import { CONTACT_INFO } from '@/lib/config'
+
 export default function JsonLd() {
     const jsonLd = {
         '@context': 'https://schema.org',
@@ -6,8 +8,8 @@ export default function JsonLd() {
         image: 'https://sabrotortas.cl/logo.webp',
         description: 'Servicios de catering profesional, tortas decoradas personalizadas y organización de eventos en Santiago. Resolución Sanitaria N° 12343/2006.',
         url: 'https://sabrotortas.cl',
-        telephone: '+56977794373',
-        email: 'ventas@sabrotortas.cl',
+        telephone: CONTACT_INFO.phone,
+        email: CONTACT_INFO.email,
         address: {
             '@type': 'PostalAddress',
             addressLocality: 'Huechuraba',

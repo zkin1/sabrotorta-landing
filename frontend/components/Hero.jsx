@@ -8,7 +8,7 @@ export default function Hero() {
   const [ref, isVisible] = useInView()
 
   return (
-    <section ref={ref} className="relative min-h-[700px] sm:min-h-screen flex items-end md:items-center overflow-hidden">
+    <section ref={ref} className="section-hero relative min-h-[700px] sm:min-h-screen flex items-end md:items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         {/* Mobile Image */}

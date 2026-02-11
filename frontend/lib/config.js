@@ -1,16 +1,30 @@
 // API Configuration
-// Backend API base URL - adjust based on environment
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001'
-
-// API Endpoints
+// Contact form endpoint (Next.js API Route)
 export const API_ENDPOINTS = {
-    // Contact form endpoint
     contact: '/api/sendEmail',
-
-    // Add other endpoints as needed
-    // gallery: `${API_BASE_URL}/api/galeria`,
-    // products: `${API_BASE_URL}/api/productos`,
 }
 
-// Export base URL for direct use if needed
-export { API_BASE_URL }
+// Centralized contact information — single source of truth
+export const CONTACT_INFO = {
+    phone: '+56977794373',
+    phoneFormatted: '+569 7779 4373',
+    email: 'ventas@sabrotortas.cl',
+    whatsapp: '56977794373',
+    whatsappMessage: 'Hola! Me gustaría solicitar información sobre sus servicios.',
+    get whatsappUrl() {
+        return `https://wa.me/${this.whatsapp}?text=${encodeURIComponent(this.whatsappMessage)}`
+    },
+    location: {
+        city: 'Santiago',
+        commune: 'Huechuraba',
+        region: 'Chile',
+        full: 'Huechuraba, Santiago',
+        coverage: 'Cobertura en toda la RM',
+    },
+    instagram: 'https://instagram.com/_u/sabrotortas.cl/',
+    schedule: {
+        weekdays: '9:00 - 19:00',
+        saturday: '10:00 - 14:00',
+        whatsapp: '24/7',
+    },
+}

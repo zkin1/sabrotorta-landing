@@ -2,6 +2,7 @@
 
 // components/Footer.jsx - VERSIÓN PROFESIONAL
 import { Heart, Mail, Phone, MapPin, ArrowUp } from 'lucide-react'
+import { CONTACT_INFO } from '@/lib/config'
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -18,7 +19,7 @@ export default function Footer() {
           {/* Column 1: About */}
           <div className="md:col-span-2">
             <div className="mb-6">
-              <h3 className="text-5xl font-bold mb-4 font-script">
+              <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 font-script">
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-lightPink to-brand-pink">
                   Sabrotortas
                 </span>
@@ -38,8 +39,8 @@ export default function Footer() {
                 <Mail className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
                   <p className="text-gray-300 text-sm">Email</p>
-                  <a href="mailto:ventas@sabrotortas.cl" className="text-gray-300 hover:text-brand-pink transition-colors">
-                    ventas@sabrotortas.cl
+                  <a href={`mailto:${CONTACT_INFO.email}`} className="text-gray-300 hover:text-brand-pink transition-colors">
+                    {CONTACT_INFO.email}
                   </a>
                 </div>
               </li>
@@ -47,8 +48,8 @@ export default function Footer() {
                 <Phone className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
                   <p className="text-gray-300 text-sm">Teléfono/WhatsApp</p>
-                  <a href="tel:+56977794373" className="text-gray-300 hover:text-brand-pink transition-colors">
-                    +569 7779 4373
+                  <a href={`tel:${CONTACT_INFO.phone}`} className="text-gray-300 hover:text-brand-pink transition-colors">
+                    {CONTACT_INFO.phoneFormatted}
                   </a>
                 </div>
               </li>
@@ -56,7 +57,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-brand-pink mt-1 group-hover:scale-125 transition-transform" />
                 <div>
                   <p className="text-gray-300 text-sm">Ubicación</p>
-                  <p className="text-gray-300">Huechuraba, Santiago</p>
+                  <p className="text-gray-300">{CONTACT_INFO.location.full}</p>
                 </div>
               </li>
             </ul>
@@ -87,7 +88,7 @@ export default function Footer() {
               className="group w-14 h-14 bg-gradient-to-r from-brand-pink to-brand-lightPink hover:from-pink-600 hover:to-pink-500 rounded-xl flex items-center justify-center transition-all duration-300 hover:scale-110 shadow-xl"
               aria-label="Volver arriba"
             >
-              <ArrowUp className="w-6 h-6 text-white group-hover:translate-y-1 transition-transform" />
+              <ArrowUp className="w-6 h-6 text-white group-hover:-translate-y-1 transition-transform" />
             </button>
           </div>
         </div>

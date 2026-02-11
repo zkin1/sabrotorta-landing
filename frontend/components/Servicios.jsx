@@ -32,7 +32,7 @@ export default function Servicios() {
   ]
 
   return (
-    <section id="servicios" ref={ref} className="py-20 px-4">
+    <section id="servicios" ref={ref} className="section-servicios py-20 px-4">
       {/* Header */}
       <div className={`text-center mb-16 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
         <p className="text-sm uppercase tracking-[0.3em] text-gray-500 mb-4">
@@ -48,10 +48,11 @@ export default function Servicios() {
         {servicios.map((servicio, index) => (
           <div
             key={servicio.id}
-            className={`group relative rounded-3xl overflow-hidden shadow-lg transition-all duration-500 will-animate ${isVisible ? 'animate-in-up' : ''} delay-${index + 1}00`}
+            className={`group relative rounded-3xl overflow-hidden shadow-lg transition-all duration-500 will-animate ${isVisible ? 'animate-in-up' : ''}`}
+            style={{ animationDelay: `${0.1 * (index + 1)}s` }}
           >
             {/* Background Image */}
-            <div className="relative h-[500px] sm:h-[550px] lg:h-[600px]">
+            <div className="relative h-[420px] sm:h-[500px] lg:h-[600px]">
               <Image
                 src={servicio.image}
                 alt={`${servicio.titleMain} ${servicio.titleAccent}`}
@@ -66,7 +67,7 @@ export default function Servicios() {
             </div>
 
             {/* Content Overlay */}
-            <div className="absolute inset-0 flex flex-col justify-end p-6 sm:p-8 text-white">
+            <div className="absolute inset-0 flex flex-col justify-end p-5 sm:p-8 text-white">
               {/* Small Label */}
               <p className="text-xs uppercase tracking-[0.4em] mb-3 text-white/95">
                 SERVICIO
@@ -92,7 +93,7 @@ export default function Servicios() {
                 href="#contacto"
                 className="inline-flex items-center gap-2 text-sm uppercase tracking-wider font-semibold group-hover:gap-3 transition-all text-white hover:text-pink-400"
               >
-                Ver más detalles
+                Solicitar Cotización
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </div>

@@ -1,7 +1,7 @@
 'use client'
 
 // components/Clientes.jsx - VERSIÓN PROFESIONAL
-import { Building2, Star, TrendingUp, Users, Award, ShoppingBag, Landmark, GraduationCap, Pickaxe, Car, LineChart } from 'lucide-react'
+import { Building2, ShoppingBag, Landmark, GraduationCap, Pickaxe, Car, LineChart } from 'lucide-react'
 import { useInView } from '@/hooks/useInView'
 
 export default function Clientes() {
@@ -16,35 +16,9 @@ export default function Clientes() {
     { nombre: 'Action Line', descripcion: 'Tortas y cafés para celebraciones y aniversarios', logo: LineChart }
   ]
 
-  const stats = [
-    {
-      value: '18+',
-      label: 'Años de Experiencia',
-      icon: TrendingUp,
-      color: 'from-pink-500 to-fuchsia-500'
-    },
-    {
-      value: '500+',
-      label: 'Eventos Realizados',
-      icon: Users,
-      color: 'from-blue-500 to-purple-500'
-    },
-    {
-      value: '100%',
-      label: 'Clientes Satisfechos',
-      icon: Star,
-      color: 'from-green-500 to-teal-500'
-    },
-    {
-      value: '50+',
-      label: 'Empresas Atendidas',
-      icon: Award,
-      color: 'from-pink-500 to-rose-500'
-    }
-  ]
 
   return (
-    <section ref={ref} className="py-24 relative overflow-hidden">
+    <section id="clientes" ref={ref} className="section-clientes py-24 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className={`text-center mb-12 md:mb-20 will-animate ${isVisible ? 'animate-in-up' : ''}`}>
@@ -63,9 +37,6 @@ export default function Clientes() {
 
         {/* Clients Grid */}
         <div className="mb-20">
-          <h3 className="text-3xl font-bold text-gray-800 text-center mb-12">
-            Empresas que han confiado en nosotros
-          </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {clientes.map((cliente, index) => (
               <div
